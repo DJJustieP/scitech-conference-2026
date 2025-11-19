@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: scitech-2026-conference-jpascual.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: new-aiaa.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Database file #1: MyLibrary.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--empty pages in lynde_computational_2017
+Warning--empty pages in lynde_preliminary_2019
+Warning--empty journal in bobbitt_results_1992
+Warning--there's a number but no volume in bobbitt_results_1992
+Warning--empty pages in Pascual2025-bx
+Warning--empty pages in osusky_parallel_2010
+Warning--empty pages in piotrowski_investigation_2019
+Warning--empty pages in piotrowski_investigation_2022
+Warning--there's a number but no volume in spalart_one-equation_1994
+You've used 32 entries,
+            3319 wiz_defined-function locations,
+            897 strings with 12862 characters,
+and the built_in function-call counts, 19120 in all, are:
+= -- 1446
+> -- 575
+< -- 74
++ -- 242
+- -- 173
+* -- 1588
+:= -- 2554
+add.period$ -- 81
+call.type$ -- 32
+change.case$ -- 128
+chr.to.int$ -- 33
+cite$ -- 41
+duplicate$ -- 1693
+empty$ -- 1575
+format.name$ -- 286
+if$ -- 3900
+int.to.chr$ -- 1
+int.to.str$ -- 33
+missing$ -- 298
+newline$ -- 123
+num.names$ -- 96
+pop$ -- 620
+preamble$ -- 1
+purify$ -- 128
+quote$ -- 0
+skip$ -- 614
+stack$ -- 0
+substring$ -- 999
+swap$ -- 1027
+text.length$ -- 55
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 192
+warning$ -- 9
+while$ -- 118
+width$ -- 0
+write$ -- 385
+(There were 9 warnings)

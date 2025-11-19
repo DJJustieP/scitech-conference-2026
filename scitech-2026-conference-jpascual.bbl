@@ -1,0 +1,216 @@
+\begin{thebibliography}{32}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{\discretionary{}{}{}https://doi.org/#1}\else
+  \providecommand{\doi}[1]{\discretionary{}{}{}\urlstyle{rm}\url{https://doi.org/#1}}\fi
+
+\bibitem[{Bushnell(1992)}]{bushnell_overview_1992}
+Bushnell, D., \enquote{Overview of aircraft drag reduction technology,}
+  \emph{AGARD Report 786}, 1992.
+
+\bibitem[{Green(2003)}]{green_civil_2003}
+Green, J.~E., \enquote{Civil aviation and the environmental challenge,}
+  \emph{The Aeronautical Journal}, Vol. 107, No. 1072, 2003, pp. 281--299.
+\newblock \doi{10.1017/S0001924000013579}.
+
+\bibitem[{Green(2006)}]{green_civil_2006}
+Green, J.~E., \enquote{Civil aviation and the environment – the next frontier
+  for the aerodynamicist,} \emph{The Aeronautical Journal}, Vol. 110, No. 1110,
+  2006, pp. 469--486.
+\newblock \doi{10.1017/S0001924000001378}.
+
+\bibitem[{Lynde and Campbell(2017)}]{lynde_computational_2017}
+Lynde, M.~N., and Campbell, R.~L., \enquote{Computational {Design} and
+  {Analysis} of a {Transonic} {Natural} {Laminar} {Flow} {Wing} for a {Wind}
+  {Tunnel} {Model},} \emph{35th {AIAA} {Applied} {Aerodynamics} {Conference}},
+  American Institute of Aeronautics and Astronautics, Denver, Colorado, 2017.
+\newblock \doi{10.2514/6.2017-3058}.
+
+\bibitem[{Lynde et~al.(2019)Lynde, Campbell, Rivers, Viken, Chan, Watkins, and
+  Goodliff}]{lynde_preliminary_2019}
+Lynde, M.~N., Campbell, R.~L., Rivers, M.~B., Viken, S.~A., Chan, D.~T.,
+  Watkins, A.~N., and Goodliff, S.~L., \enquote{Preliminary {Results} from an
+  {Experimental} {Assessment} of a {Natural} {Laminar} {Flow} {Design}
+  {Method},} \emph{{AIAA} {Scitech} 2019 {Forum}}, American Institute of
+  Aeronautics and Astronautics, San Diego, California, 2019.
+\newblock \doi{10.2514/6.2019-2298}.
+
+\bibitem[{Johansen and Sørensen(1999)}]{johansen_prediction_1999}
+Johansen, J., and Sørensen, J.~N., \enquote{Prediction of
+  {Laminar}/{Turbulent} {Transition} in {Airfoil} {Flows},} \emph{Journal of
+  Aircraft}, Vol.~36, No.~4, 1999, pp. 731--734.
+\newblock \doi{10.2514/2.2501}.
+
+\bibitem[{Braslow et~al.(1951)Braslow, Burrows, Tetervin, and
+  Visconti}]{Braslow1951}
+Braslow, A., Burrows, D., Tetervin, N., and Visconti, F., \enquote{Experimental
+  and Theoretical Studies of Area Suction for the Control of the Laminar
+  Boundary Layer on an NACA 64A010 Airfoil,} Tech. Rep. Report 1025, NACA,
+  1951.
+
+\bibitem[{Bobbitt et~al.(1992)Bobbitt, Ferris, Harvey, and
+  Gordia}]{bobbitt_results_1992}
+Bobbitt, P.~J., Ferris, J.~C., Harvey, W.~D., and Gordia, S.~H.,
+  \enquote{Results for the {Hybrid} {Laminar} {Flow} {Control} {Experiment},} ,
+  No. NASA-TM-107582, 1992.
+
+\bibitem[{Harvey et~al.(1986)Harvey, Harris, Brooks, Clukey, and
+  Stack}]{harvey_design_1986}
+Harvey, W.~D., Harris, C.~D., Brooks, C.~W., Clukey, P.~G., and Stack, J.~P.,
+  \enquote{Design and {Experimental} {Evaluation} of a {Swept}, {Supercritical}
+  {LFC} {Airfoil},} \emph{Langley Symposium on Aerodynamics}, Vol.~1, 1986.
+
+\bibitem[{Dagenhart(1978)}]{dagenhart_design_1978}
+Dagenhart, J.~R., \enquote{Design of a {Laminar}-{Flow}-{Control}
+  {Supercritical} {Airfoil} for a {Swept} {Wing},} \emph{NASA, Langley Research
+  Center, Hampton, VA, USA, CTOL Transport Technology}, 1978.
+
+\bibitem[{Berry et~al.(1987)Berry, Dagenhart, Brooks, and
+  Harris}]{berry_boundary-layer_1987}
+Berry, S., Dagenhart, J.~R., Brooks, C.~W., and Harris, C.~D.,
+  \enquote{Boundary-layer stability analysis of {Langley} {Research} {Center}
+  8-foot {LFC} experimental data,} \emph{NASA, Langley Research Center,
+  Hampton, VA, USA, Research in Natural Laminar Flow and Laminar-Flow Control,
+  Part 2}, 1987.
+
+\bibitem[{Fisher and Fischer(1987)}]{fisher_development_1987}
+Fisher, D.~F., and Fischer, M.~C., \enquote{Development flight tests of
+  {JetStar} {LFC} leading-edge flight test experiment,} \emph{NASA, Langley
+  Research Center, Research in Natural Laminar Flow and Laminar-Flow Control,
+  Part 1}, 1987.
+
+\bibitem[{Sudhi et~al.(2023)Sudhi, Radespiel, and Badrya}]{Sudhi2023-yf}
+Sudhi, A., Radespiel, R., and Badrya, C., \enquote{Design exploration of
+  transonic airfoils for natural and hybrid laminar flow control applications,}
+  \emph{J. Aircr.}, Vol.~60, No.~3, 2023, pp. 716--732.
+
+\bibitem[{Prasannakumar et~al.(2024)Prasannakumar, Sudhi, Seitz, and
+  Badrya}]{Prasannakumar_Sudhi_Seitz_Badrya_2024}
+Prasannakumar, A., Sudhi, A., Seitz, A., and Badrya, C., \enquote{Design of
+  Hybrid-Laminar-Flow-Control Wing and Suction System for Transonic Midrange
+  Aircraft,} \emph{Journal of Aircraft}, Vol.~61, No.~3, 2024, pp. 709--732.
+\newblock \doi{10.2514/1.C037398}.
+
+\bibitem[{Pascual and Zingg(2025)}]{Pascual2025-bx}
+Pascual, J.~M., and Zingg, D.~W., \enquote{Progress in the application of an
+  aerodynamic shape optimization capability using hybrid laminar flow control
+  to airfoils and infinite swept wings,} \emph{{AIAA} {SCITECH} 2025 Forum,
+  AIAA Paper 2025-0484}, American Institute of Aeronautics and Astronautics,
+  Reston, Virginia, 2025.
+
+\bibitem[{Piotrowski and Zingg(2023)}]{piotrowski_compressibility_2023}
+Piotrowski, M., and Zingg, D., \enquote{Compressibility corrections to extend a
+  smooth local correlation-based transition model to transonic flows,}
+  \emph{The Aeronautical Journal}, Vol. 127, No. 1313, 2023, pp. 1141--1170.
+\newblock \doi{10.1017/aer.2022.105}.
+
+\bibitem[{Osusky and Zingg(2008)}]{osusky_parallel_2008}
+Osusky, M., and Zingg, D.~W., \enquote{A parallel {Newton}-{Krylov}-{Schur}
+  ﬂow solver for the {Navier}-{Stokes} equations discretized using
+  summation-by-parts operators,} \emph{AIAA Journal}, Vol.~51, No.~12, 2008,
+  pp. 2833--2851.
+
+\bibitem[{Osusky et~al.(2010)Osusky, Hicken, and Zingg}]{osusky_parallel_2010}
+Osusky, M., Hicken, J., and Zingg, D., \enquote{A {Parallel}
+  {Newton}-{Krylov}-{Schur} {Flow} {Solver} for the {Navier}-{Stokes}
+  {Equations} {Using} the {SBP}-{SAT} {Approach},} \emph{48th {AIAA}
+  {Aerospace} {Sciences} {Meeting} {Including} the {New} {Horizons} {Forum} and
+  {Aerospace} {Exposition}}, American Institute of Aeronautics and
+  Astronautics, Orlando, Florida, 2010.
+\newblock \doi{10.2514/6.2010-116}.
+
+\bibitem[{Piotrowski and Zingg(2019)}]{piotrowski_investigation_2019}
+Piotrowski, M., and Zingg, D.~W., \enquote{Investigation of a {Local}
+  {Correlation}-based {Transition} {Model} in a {Newton}-{Krylov} {Algorithm},}
+  \emph{{AIAA} {Scitech} 2019 {Forum}}, American Institute of Aeronautics and
+  Astronautics, San Diego, California, 2019.
+\newblock \doi{10.2514/6.2019-2299}.
+
+\bibitem[{Piotrowski and Zingg(2021)}]{piotrowski_smooth_2021}
+Piotrowski, M. G.~H., and Zingg, D.~W., \enquote{Smooth {Local}
+  {Correlation}-{Based} {Transition} {Model} for the {Spalart}–{Allmaras}
+  {Turbulence} {Model},} \emph{AIAA Journal}, Vol.~59, No.~2, 2021, pp.
+  474--492.
+\newblock \doi{10.2514/1.J059784}.
+
+\bibitem[{Hicken and Zingg(2010)}]{hicken_aerodynamic_2010}
+Hicken, J.~E., and Zingg, D.~W., \enquote{Aerodynamic {Optimization}
+  {Algorithm} with {Integrated} {Geometry} {Parameterization} and {Mesh}
+  {Movement},} \emph{AIAA Journal}, Vol.~48, No.~2, 2010, pp. 400--413.
+\newblock \doi{10.2514/1.44033}.
+
+\bibitem[{Gill et~al.(2002)Gill, Murray, and Saunders}]{gill_snopt_2002}
+Gill, P.~E., Murray, W., and Saunders, M.~A., \enquote{{SNOPT}: {An} {SQP}
+  {Algorithm} for {Large}-{Scale} {Constrained} {Optimization},} \emph{SIAM
+  Journal on Optimization}, Vol.~12, No.~4, 2002, pp. 979--1006.
+\newblock \doi{10.1137/S1052623499350013}.
+
+\bibitem[{Gagnon and Zingg(2015)}]{gagnon_two-level_2015}
+Gagnon, H., and Zingg, D.~W., \enquote{Two-{Level} {Free}-{Form} and {Axial}
+  {Deformation} for {Exploratory} {Aerodynamic} {Shape} {Optimization},}
+  \emph{AIAA Journal}, Vol.~53, No.~7, 2015, pp. 2015--2026.
+\newblock \doi{10.2514/1.J053575}.
+
+\bibitem[{Del Rey~Fernández et~al.(2018)Del Rey~Fernández, Hicken, and
+  Zingg}]{delrey_fernandez_simultaneous_2018}
+Del Rey~Fernández, D.~C., Hicken, J.~E., and Zingg, D.~W.,
+  \enquote{Simultaneous {Approximation} {Terms} for {Multi}-dimensional
+  {Summation}-by-{Parts} {Operators},} \emph{Journal of Scientific Computing},
+  Vol.~75, No.~1, 2018, pp. 83--110.
+\newblock \doi{10.1007/s10915-017-0523-7}.
+
+\bibitem[{Piotrowski and Zingg(2022)}]{piotrowski_investigation_2022}
+Piotrowski, M.~G., and Zingg, D.~W., \enquote{Investigation of a {Smooth}
+  {Local} {Correlation}-based {Transition} {Model} in a {Discrete}-{Adjoint}
+  {Aerodynamic} {Shape} {Optimization} {Algorithm},} \emph{{AIAA} {SCITECH}
+  2022 {Forum}}, American Institute of Aeronautics and Astronautics, San Diego,
+  CA \& Virtual, 2022.
+\newblock \doi{10.2514/6.2022-1865}.
+
+\bibitem[{Langtry and Menter(2009)}]{langtry_correlation-based_2009}
+Langtry, R.~B., and Menter, F.~R., \enquote{Correlation-{Based} {Transition}
+  {Modeling} for {Unstructured} {Parallelized} {Computational} {Fluid}
+  {Dynamics} {Codes},} \emph{AIAA Journal}, Vol.~47, No.~12, 2009, pp.
+  2894--2906.
+\newblock \doi{10.2514/1.42362}.
+
+\bibitem[{Spalart and Allmaras(1994)}]{spalart_one-equation_1994}
+Spalart, P.~R., and Allmaras, S.~R., \enquote{A one-equation turbulence model
+  for aerodynamic flows,} \emph{La Recherche Aerospatiale}, , No.~1, 1994, pp.
+  5--21.
+
+\bibitem[{Jameson et~al.(1998)Jameson, Martinelli, and Pierce}]{Jameson1998-sf}
+Jameson, A., Martinelli, L., and Pierce, N.~A., \enquote{Optimum aerodynamic
+  design using the Navier-Stokes equations,} \emph{Theor. Comput. Fluid Dyn.},
+  Vol.~10, No. 1-4, 1998, pp. 213--237.
+
+\bibitem[{Osusky et~al.(2015)Osusky, Buckley, Reist, and Zingg}]{Osusky2015-qh}
+Osusky, L., Buckley, H., Reist, T., and Zingg, D.~W., \enquote{Drag
+  minimization based on the Navier--Stokes equations using a Newton--Krylov
+  approach,} \emph{AIAA J.}, Vol.~53, No.~6, 2015, pp. 1555--1577.
+
+\bibitem[{Fehrs(2020)}]{Fehrs2020-qg}
+Fehrs, M., \enquote{Boundary layer suction modeling based on the {DLR}
+  {TAU-code} effusion mass flux boundary condition,} \emph{Notes on Numerical
+  Fluid Mechanics and Multidisciplinary Design}, Notes on numerical fluid
+  mechanics and multidisciplinary design, Springer International Publishing,
+  Cham, 2020, pp. 175--184.
+
+\bibitem[{Prasannakumar et~al.(2022)Prasannakumar, Wolff, Radespiel, Boermans,
+  Hühne, and Badrya}]{prasannakumar_design_2022}
+Prasannakumar, A., Wolff, J., Radespiel, R., Boermans, L., Hühne, C., and
+  Badrya, C., \enquote{Design and power calculation of {HLFC} suction system
+  for a subsonic short-range aircraft,} \emph{CEAS Aeronautical Journal},
+  Vol.~13, No.~4, 2022, pp. 1003--1026.
+\newblock \doi{10.1007/s13272-022-00614-1}.
+
+\bibitem[{Schwartzberg and Braslow(1952)}]{Schwartzberg1952}
+Schwartzberg, M., and Braslow, A., \enquote{Experimental study of the effects
+  of finite surface disturbances and angle of attack on the laminar boundary
+  layer of an NACA 64A010 airfoil with area suction,} Tech. Rep. TN-2796, NACA,
+  1952.
+
+\end{thebibliography}

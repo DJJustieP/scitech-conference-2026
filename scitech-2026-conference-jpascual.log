@@ -1,0 +1,1827 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  19 NOV 2025 17:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./scitech-2026-conference-jpascual.tex
+(scitech-2026-conference-jpascual.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+(new-aiaa.cls
+Document Class: new-aiaa 2018/01/10, v1.2
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@section=\count195
+\c@subsection=\count196
+\c@subsubsection=\count197
+\c@paragraph=\count198
+\c@subparagraph=\count199
+\c@figure=\count266
+\c@table=\count267
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count268
+)
+\MT@toks=\toks20
+\MT@tempbox=\box52
+\MT@count=\count269
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
+LaTeX Info: Redefining \leftprotrusion on input line 1062.
+\MT@prot@toks=\toks21
+LaTeX Info: Redefining \rightprotrusion on input line 1081.
+LaTeX Info: Redefining \textls on input line 1392.
+\MT@outer@kern=\dimen142
+LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
+\MT@listname@count=\count270
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
+tex.def
+File: microtype-pdftex.def 2024/03/29 v3.1b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip51
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
+)) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxtext.sty
+Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex su
+pport for TeXGyreTermesX
+
+`newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-09-10 L3 programming layer (loader) 
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count271
+\l__pdf_internal_box=\box53
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+)
+\XKV@depth=\count272
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count273
+\xs_countb=\count274
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
+\ntx@tmpcnta=\count275
+\ntx@cnt=\count276
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+\tx@sixem=\dimen143
+\tx@y=\dimen144
+\tx@x=\dimen145
+\tx@tmpdima=\dimen146
+\tx@tmpdimb=\dimen147
+\tx@tmpdimc=\dimen148
+\tx@tmpdimd=\dimen149
+\tx@tmpdime=\dimen150
+\tx@tmpdimf=\dimen151
+\tx@dimA=\dimen152
+\tx@dimAA=\dimen153
+\tx@dimB=\dimen154
+\tx@dimBB=\dimen155
+\tx@dimC=\dimen156
+LaTeX Info: Redefining \oldstylenums on input line 902.
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxmath.sty
+Package: newtxmath 2024/09/22 v1.754
+
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen157
+))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count277
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count278
+\leftroot@=\count279
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count280
+\DOTSCASE@=\count281
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count282
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count283
+\dotsspace@=\muskip17
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
+\tag@help=\toks25
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
+\andhelp@=\toks26
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks27
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+\tx@cntz=\count289
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
+\tx@Isdigit=\count290
+\tx@IsAlNum=\count291
+\tx@tA=\toks29
+\tx@tB=\toks30
+\tx@su=\read2
+
+amsthm NOT loaded
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/minntx/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/minntx/m/n --> OT1/minntx/b/n on input line 403.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/qhv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/qhv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/qhv/m/n --> OT1/qhv/b/n on input line 412.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/minntx/m/it on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/minntx/m/it on input line 419.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/minntx/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/minntx/m/it --> OT1/minntx/b/it on input line 423.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 426.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 534.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 535.
+\symlettersA=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 582.
+Now handling font encoding LMS ...
+... no UTF-8 mapping file for font encoding LMS
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 605.
+\symAMSm=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 630.
+\symsymbolsC=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 651.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 6
+64.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 664
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 665.
+\symlargesymbolsTXA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
+\tx@sbptoks=\toks31
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 903.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 904.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 905.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 910.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 911.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 913.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 915.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 919.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 920.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 966.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 991.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 992.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 2057.
+LaTeX Info: Redefining \Bbbk on input line 2847.
+LaTeX Info: Redefining \not on input line 2995.
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count292
+\Gm@cntv=\count293
+\c@Gm@tempcnt=\count294
+\Gm@bindingoffset=\dimen166
+\Gm@wd@mp=\dimen167
+\Gm@odd@mp=\dimen168
+\Gm@even@mp=\dimen169
+\Gm@layoutwidth=\dimen170
+\Gm@layoutheight=\dimen171
+\Gm@layouthoffset=\dimen172
+\Gm@layoutvoffset=\dimen173
+\Gm@dimlist=\toks32
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen174
+\enit@toks=\toks33
+\enit@inbox=\box56
+\enit@count@id=\count295
+\enitdp@description=\count296
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks34
+\footnotemargin=\dimen175
+\@outputbox@depth=\dimen176
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
+.
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/abstract\abstract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip56
+\absleftindent=\skip57
+\absrightindent=\skip58
+\absparindent=\skip59
+\absparsep=\skip60
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/preprint\authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip61
+\@affilsep=\skip62
+\c@Maxaffil=\count297
+\c@authors=\count298
+\c@affil=\count299
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen177
+\ttl@minus=\dimen178
+\ttl@toksa=\toks35
+\titlewidth=\dimen179
+\titlewidthlast=\dimen180
+\titlewidthfirst=\dimen181
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.sty
+File: lettrine.sty 2024-11-14 v2.70 (Daniel Flipo)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.sty
+Package: xfp 2024-08-16 L3 Floating point unit
+)
+\c@DefaultLines=\count300
+\c@DefaultDepth=\count301
+\DefaultFindent=\dimen182
+\DefaultNindent=\dimen183
+\DefaultSlope=\dimen184
+\DiscardVskip=\dimen185
+\L@lettrine=\box58
+\L@lbox=\box59
+\L@tbox=\box60
+\c@L@lines=\count302
+\c@L@depth=\count303
+\L@Pindent=\dimen186
+\L@Findent=\dimen187
+\L@Nindent=\dimen188
+\L@lraise=\dimen189
+\L@first=\dimen190
+\L@next=\dimen191
+\L@slope=\dimen192
+\L@height=\dimen193
+\L@novskip=\dimen194
+\L@ruleht=\dimen195
+\L@target@ht=\dimen196
+\L@target@dp=\dimen197
+\L@target@tht=\dimen198
+\LettrineWidth=\dimen199
+\LettrineHeight=\dimen256
+\LettrineDepth=\dimen257
+Loading lettrine.cfg
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg)
+\Lettrine@tweaks=\toks36
+\Llist@everypar=\toks37
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen258
+\captionmargin=\dimen259
+\caption@leftmargin=\dimen260
+\caption@rightmargin=\dimen261
+\caption@width=\dimen262
+\caption@indent=\dimen263
+\caption@parindent=\dimen264
+\caption@hangindent=\dimen265
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count304
+\c@continuedfloat=\count305
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/quoting\quoting.sty
+Package: quoting 2014/01/28 v0.1c Consolidated environment for displayed text
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\quo@toppartop=\skip65
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip66
+\bibsep=\skip67
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count306
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count307
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen266
+\Hy@linkcounter=\count308
+\Hy@pagecounter=\count309
+ (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count310
+ (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count311
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen267
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count312
+\Field@Width=\dimen268
+\Fld@charsize=\dimen269
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count313
+\c@Item=\count314
+\c@Hfootnote=\count315
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count316
+\c@bookmark@seq@number=\count317
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip68
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen270
+\Gin@req@width=\dimen271
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/mhchem\mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count318
+\calc@Bcount=\count319
+\calc@Adimen=\dimen272
+\calc@Bdimen=\dimen273
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count320
+\calc@Cskip=\skip71
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/chemgreek\chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count321
+\g__chemgreek_tmpa_int=\count322
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count323
+\__mhchem_arrow_extPgfLength_skip=\skip72
+\mhchem@minispace@tmp=\skip73
+\mhchem@minibackspace@tmp=\skip74
+\mhchem@bondwidth=\skip75
+\mhchem@bondheight=\skip76
+\mhchem@smallbondwidth@tmpA=\skip77
+\mhchem@smallbondwidth@tmpB=\skip78
+\mhchem@smallbondwidth=\skip79
+\mhchem@bondtmp@minussidebearingleft=\skip80
+\mhchem@bondtmp@minussidebearingright=\skip81
+\l__mhchem_option_version_int=\count324
+\mhchem@option@minusmathsidebearingleft=\dimen274
+\mhchem@option@minusmathsidebearingright=\dimen275
+\mhchem@option@minustextsidebearingleft=\dimen276
+\mhchem@option@minustextsidebearingright=\dimen277
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2024-11-15 v3.3.23 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count325
+\l__siunitx_number_exponent_fixed_int=\count326
+\l__siunitx_number_min_decimal_int=\count327
+\l__siunitx_number_min_integer_int=\count328
+\l__siunitx_number_round_precision_int=\count329
+\l__siunitx_number_lower_threshold_int=\count330
+\l__siunitx_number_upper_threshold_int=\count331
+\l__siunitx_number_group_first_int=\count332
+\l__siunitx_number_group_size_int=\count333
+\l__siunitx_number_group_minimum_int=\count334
+\l__siunitx_angle_tmp_dim=\dimen278
+\l__siunitx_angle_marker_box=\box61
+\l__siunitx_angle_unit_box=\box62
+\l__siunitx_compound_count_int=\count335
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box63
+\l__siunitx_table_tmp_dim=\dimen279
+\l__siunitx_table_column_width_dim=\dimen280
+\l__siunitx_table_integer_box=\box64
+\l__siunitx_table_decimal_box=\box65
+\l__siunitx_table_uncert_box=\box66
+\l__siunitx_table_before_box=\box67
+\l__siunitx_table_after_box=\box68
+\l__siunitx_table_before_dim=\dimen281
+\l__siunitx_table_carry_dim=\dimen282
+\l__siunitx_unit_tmp_int=\count336
+\l__siunitx_unit_position_int=\count337
+\l__siunitx_unit_total_int=\count338
+ (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen283
+\ar@mcellbox=\box69
+\extrarowheight=\dimen284
+\NC@list=\toks38
+\extratabsurround=\skip82
+\backup@length=\skip83
+\ar@cellbox=\box70
+)) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
+\LTleft=\skip84
+\LTright=\skip85
+\LTpre=\skip86
+\LTpost=\skip87
+\LTchunksize=\count339
+\LTcapwidth=\dimen285
+\LT@head=\box71
+\LT@firsthead=\box72
+\LT@foot=\box73
+\LT@lastfoot=\box74
+\LT@gbox=\box75
+\LT@cols=\count340
+\LT@rows=\count341
+\c@LT@tables=\count342
+\c@LT@chunks=\count343
+\LT@p@ftn=\toks39
+) (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen286
+\TX@old@table=\dimen287
+\TX@old@col=\dimen288
+\TX@target=\dimen289
+\TX@delta=\dimen290
+\TX@cols=\count344
+\TX@ftn=\toks40
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen291
+\lightrulewidth=\dimen292
+\cmidrulewidth=\dimen293
+\belowrulesep=\dimen294
+\belowbottomsep=\dimen295
+\aboverulesep=\dimen296
+\abovetopsep=\dimen297
+\cmidrulesep=\dimen298
+\cmidrulekern=\dimen299
+\defaultaddspace=\dimen300
+\@cmidla=\count345
+\@cmidlb=\count346
+\@aboverulesep=\dimen301
+\@belowrulesep=\dimen302
+\@thisruleclass=\count347
+\@lastruleclass=\count348
+\@thisrulewidth=\dimen303
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count349
+\float@exts=\toks41
+\float@box=\box76
+\@float@everytoks=\toks42
+\@floatcapt=\box77
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
+\c@tracingmulticols=\count350
+\mult@box=\box78
+\multicol@leftmargin=\dimen304
+\c@unbalance=\count351
+\c@collectmore=\count352
+\doublecol@number=\count353
+\multicoltolerance=\count354
+\multicolpretolerance=\count355
+\full@width=\dimen305
+\page@free=\dimen306
+\premulticols=\dimen307
+\postmulticols=\dimen308
+\multicolsep=\skip88
+\multicolbaselineskip=\skip89
+\partial@page=\box79
+\last@line=\box80
+\mc@boxedresult=\box81
+\maxbalancingoverflow=\dimen309
+\mult@rightbox=\box82
+\mult@grightbox=\box83
+\mult@firstbox=\box84
+\mult@gfirstbox=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\c@minrows=\count356
+\c@columnbadness=\count357
+\c@finalcolumnbadness=\count358
+\last@try=\dimen310
+\multicolovershoot=\dimen311
+\multicolundershoot=\dimen312
+\mult@nat@firstbox=\box122
+\colbreak@box=\box123
+\mc@col@check@num=\count359
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks43
+\pgfutil@tempdima=\dimen313
+\pgfutil@tempdimb=\dimen314
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box124
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks44
+\pgfkeys@temptoks=\toks45
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks46
+))
+\pgf@x=\dimen315
+\pgf@y=\dimen316
+\pgf@xa=\dimen317
+\pgf@ya=\dimen318
+\pgf@xb=\dimen319
+\pgf@yb=\dimen320
+\pgf@xc=\dimen321
+\pgf@yc=\dimen322
+\pgf@xd=\dimen323
+\pgf@yd=\dimen324
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count360
+\c@pgf@countb=\count361
+\c@pgf@countc=\count362
+\c@pgf@countd=\count363
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
+\pgf@sys@id@count=\count364
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count365
+\pgfsyssoftpath@bigbuffer@items=\count366
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen325
+\pgfmath@count=\count367
+\pgfmath@box=\box125
+\pgfmath@toks=\toks50
+\pgfmath@stack@operand=\toks51
+\pgfmath@stack@operation=\toks52
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count368
+))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen326
+\pgf@picmaxx=\dimen327
+\pgf@picminy=\dimen328
+\pgf@picmaxy=\dimen329
+\pgf@pathminx=\dimen330
+\pgf@pathmaxx=\dimen331
+\pgf@pathminy=\dimen332
+\pgf@pathmaxy=\dimen333
+\pgf@xx=\dimen334
+\pgf@xy=\dimen335
+\pgf@yx=\dimen336
+\pgf@yy=\dimen337
+\pgf@zx=\dimen338
+\pgf@zy=\dimen339
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen340
+\pgf@path@lasty=\dimen341
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen342
+\pgf@shorten@start@additional=\dimen343
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box126
+\pgf@hbox=\box127
+\pgf@layerbox@main=\box128
+\pgf@picture@serial@count=\count369
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen344
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen345
+\pgf@pt@y=\dimen346
+\pgf@pt@temp=\dimen347
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen348
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen349
+\pgf@sys@shading@range@num=\count370
+\pgf@shadingcount=\count371
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box129
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box130
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen350
+\pgf@nodesepend=\dimen351
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen352
+\pgffor@skip=\dimen353
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
+))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count372
+\pgfplotmarksize=\dimen354
+)
+\tikz@lastx=\dimen355
+\tikz@lasty=\dimen356
+\tikz@lastxsaved=\dimen357
+\tikz@lastysaved=\dimen358
+\tikz@lastmovetox=\dimen359
+\tikz@lastmovetoy=\dimen360
+\tikzleveldistance=\dimen361
+\tikzsiblingdistance=\dimen362
+\tikz@figbox=\box131
+\tikz@figbox@bg=\box132
+\tikz@tempbox=\box133
+\tikz@tempbox@bg=\box134
+\tikztreelevel=\count373
+\tikznumberofchildren=\count374
+\tikznumberofcurrentchild=\count375
+\tikz@fig@count=\count376
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count377
+\pgfmatrixcurrentcolumn=\count378
+\pgf@matrix@numberofcolumns=\count379
+)
+\tikz@expandcount=\count380
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
+e.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
+.code.tex
+\t@pgfplots@toka=\toks55
+\t@pgfplots@tokb=\toks56
+\t@pgfplots@tokc=\toks57
+\pgfplots@tmpa=\dimen363
+\c@pgfplots@coordindex=\count381
+\c@pgfplots@scanlineindex=\count382
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
+sysgeneric.code.tex))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
+slibrary.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks58
+\t@pgf@tokb=\toks59
+\t@pgf@tokc=\toks60
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructure.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructureext.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count383
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsmatrix.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstableshared.code.tex
+\c@pgfplotstable@counta=\count384
+\t@pgfplotstable@a=\toks61
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsdeque.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.data.code.tex))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.verb.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
+arypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count385
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
+rypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolormap.code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolor.code.tex))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
+kedplots.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
+handlers.code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plothandler.code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plotimage.code.tex)))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
+ling.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
+dprocessing.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
+orbars.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
+kers.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
+s.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
+hs.code.tex)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen364
+\pgfdecoratedremainingdistance=\dimen365
+\pgfdecoratedinputsegmentcompleteddistance=\dimen366
+\pgfdecoratedinputsegmentremainingdistance=\dimen367
+\pgf@decorate@distancetomove=\dimen368
+\pgf@decorate@repeatstate=\count386
+\pgfdecorationsegmentamplitude=\dimen369
+\pgfdecorationsegmentlength=\dimen370
+)
+\tikz@lib@dec@box=\box135
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
+rarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count387
+\pgfplots@xmin@reg=\dimen371
+\pgfplots@xmax@reg=\dimen372
+\pgfplots@ymin@reg=\dimen373
+\pgfplots@ymax@reg=\dimen374
+\pgfplots@zmin@reg=\dimen375
+\pgfplots@zmax@reg=\dimen376
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count388
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count389
+)
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
+ 28.
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
+File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 28.
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 28.
+
+(scitech-2026-conference-jpascual.aux
+
+LaTeX Warning: Label `tab:b747-results' multiply defined.
+
+)
+\openout1 = `scitech-2026-conference-jpascual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 28.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
+ 28.
+ (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
+28.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
+ 28.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
+e 28.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \microtypecontext on input line 28.
+Package microtype Info: Applying patch `item' on input line 28.
+Package microtype Info: Applying patch `toc' on input line 28.
+Package microtype Info: Applying patch `eqnum' on input line 28.
+Package microtype Info: Applying patch `footnote' on input line 28.
+Package microtype Info: Applying patch `verbatim' on input line 28.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 28.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count390
+\scratchdimen=\dimen377
+\scratchbox=\box136
+\nofMPsegments=\count391
+\nofMParguments=\count392
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count393
+\MPscratchDim=\dimen378
+\MPnumerator=\count394
+\makeMPintoPDFobject=\count395
+\everyMPtoPDFconversion=\toks63
+)
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@mv@tabular=\count396
+\c@mv@boldtabular=\count397
+LaTeX Info: Command `\dddot' is already robust on input line 28.
+LaTeX Info: Command `\ddddot' is already robust on input line 28.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 28.
+
+(scitech-2026-conference-jpascual.out) (scitech-2026-conference-jpascual.out)
+\@outlinefile=\write4
+\openout4 = `scitech-2026-conference-jpascual.out'.
+
+
+Package chemgreek Info: Activating mapping `newtx' on line 28.
+
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 28.
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 28.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 31.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 31.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
+e 31.
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
+)
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 31.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `minntx' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 31.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 10.0pt on input line 31.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 5.5pt on input line 31.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 10.0pt on input line 31.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 5.5pt on input line 31.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 31.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 31.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+31.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 10.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 5.5pt on input line 31.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+31.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 10.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 5.5pt on input line 31.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+31.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 5.5pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 10.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 5.5pt on input line 31.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
+e 31.
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 31.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 31.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.0pt on input line 31.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.0pt on input line 31.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.0pt on input line 31.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.0pt on input line 31.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.0pt on input line 31.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 31.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.0pt on input line 31.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 32.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 38.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 38.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 53.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 10.0pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 7.3pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 5.5pt on input line 54.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 69.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/ntxtlf/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 16.53pt on input line 69.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.45271pt on input line 69.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.45271pt on input line 69.
+Package lettrine.sty Info: Targeted height = 16.53pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 16.8357pt (\textbf {T});
+(lettrine.sty)             reported on input line 69.
+
+
+[1
+
+{C:/Users/pascu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/pasc
+u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Users/
+pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/User
+s/pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:
+/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.
+enc}]
+
+[2]
+
+[3]
+
+[4]
+
+pdfTeX warning: pdflatex (file ./fehrs_flat_plate.pdf): PDF inclusion: found PD
+F version <1.6>, but at most version <1.5> allowed
+<fehrs_flat_plate.pdf, id=199, 598.235pt x 531.9875pt>
+File: fehrs_flat_plate.pdf Graphic file (type pdf)
+<use fehrs_flat_plate.pdf>
+Package pdftex.def Info: fehrs_flat_plate.pdf  used on input line 182.
+(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
+
+
+[5]
+
+pdfTeX warning: pdflatex (file ./braslow.pdf): PDF inclusion: found PDF version
+ <1.6>, but at most version <1.5> allowed
+<braslow.pdf, id=209, 598.235pt x 531.9875pt>
+File: braslow.pdf Graphic file (type pdf)
+<use braslow.pdf>
+Package pdftex.def Info: braslow.pdf  used on input line 196.
+(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
+<schwartzberg_extents.pdf, id=210, 598.235pt x 531.9875pt>
+File: schwartzberg_extents.pdf Graphic file (type pdf)
+<use schwartzberg_extents.pdf>
+Package pdftex.def Info: schwartzberg_extents.pdf  used on input line 203.
+(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
+<bl_profiles.pdf, id=211, 598.235pt x 531.9875pt>
+File: bl_profiles.pdf Graphic file (type pdf)
+<use bl_profiles.pdf>
+Package pdftex.def Info: bl_profiles.pdf  used on input line 210.
+(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
+
+
+[6 <./fehrs_flat_plate.pdf>]
+
+[7 <./braslow.pdf> <./schwartzberg_extents.pdf>]
+<rae2822-suction-schematic.png, id=294, 963.6pt x 243.15843pt>
+File: rae2822-suction-schematic.png Graphic file (type png)
+<use rae2822-suction-schematic.png>
+Package pdftex.def Info: rae2822-suction-schematic.png  used on input line 234.
+
+(pdftex.def)             Requested size: 227.6223pt x 57.43906pt.
+
+
+[8 <./bl_profiles.pdf> <./rae2822-suction-schematic.png>]
+
+pdfTeX warning: pdflatex (file ./cpcf.pdf): PDF inclusion: found PDF version <1
+.6>, but at most version <1.5> allowed
+<cpcf.pdf, id=317, 598.235pt x 531.9875pt>
+File: cpcf.pdf Graphic file (type pdf)
+<use cpcf.pdf>
+Package pdftex.def Info: cpcf.pdf  used on input line 261.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+
+
+pdfTeX warning: pdflatex (file ./transition_plot.pdf): PDF inclusion: found PDF
+ version <1.6>, but at most version <1.5> allowed
+<transition_plot.pdf, id=318, 598.235pt x 531.9875pt>
+File: transition_plot.pdf Graphic file (type pdf)
+<use transition_plot.pdf>
+Package pdftex.def Info: transition_plot.pdf  used on input line 268.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+
+
+[9 <./cpcf.pdf>]
+File: cpcf.pdf Graphic file (type pdf)
+<use cpcf.pdf>
+Package pdftex.def Info: cpcf.pdf  used on input line 301.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+File: transition_plot.pdf Graphic file (type pdf)
+<use transition_plot.pdf>
+Package pdftex.def Info: transition_plot.pdf  used on input line 308.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+
+
+[10 <./transition_plot.pdf>]
+File: cpcf.pdf Graphic file (type pdf)
+<use cpcf.pdf>
+Package pdftex.def Info: cpcf.pdf  used on input line 341.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+File: transition_plot.pdf Graphic file (type pdf)
+<use transition_plot.pdf>
+Package pdftex.def Info: transition_plot.pdf  used on input line 348.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16
+
+] (scitech-2026-conference-jpascual.bbl
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 1.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 9.0pt on input line 12.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 17.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 17.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 17.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 6.6pt on input line 17.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 17.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 17.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 17.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 17.
+
+
+[17])
+
+[18] (scitech-2026-conference-jpascual.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `scitech-2026-conference-jpascual.out' has no
+t changed.
+(rerunfilecheck)             Checksum: CED4D8C2F447EE220FB81539FBE0D347;5212.
+ ) 
+Here is how much of TeX's memory you used:
+ 44798 strings out of 473899
+ 1023628 string characters out of 5726499
+ 1529158 words of memory out of 5000000
+ 66672 multiletter control sequences out of 15000+600000
+ 663718 words of font info for 248 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 95i,11n,131p,1653b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXM
+I.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/Ne
+wTXMI7.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex
+-gyre/qtmr.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/newtx/txexs.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/newtx/txmiaX.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/newtx/txsys.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/newtx/ztmb.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/newtx/ztmr.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/newtx/ztmri.pfb>
+Output written on scitech-2026-conference-jpascual.pdf (18 pages, 666289 bytes)
+.
+PDF statistics:
+ 519 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 49368 words of extra memory for PDF output out of 51595 (max. 10000000)
+
