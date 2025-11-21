@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  19 NOV 2025 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  20 NOV 2025 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1304,17 +1304,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 28.
 
-(scitech-2026-conference-jpascual.aux
-
-LaTeX Warning: Label `tab:b747-results' multiply defined.
-
-)
+(scitech-2026-conference-jpascual.aux)
 \openout1 = `scitech-2026-conference-jpascual.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 28.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
  28.
- (C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
+
+(C:\Users\pascu\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 28.
@@ -1615,6 +1612,13 @@ LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
 (Font)              scaled to size 7.3pt on input line 54.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
 (Font)              scaled to size 5.5pt on input line 54.
+
+[1
+
+{C:/Users/pascu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/pasc
+u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Users/
+pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/User
+s/pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 69.
 Package microtype Info: Character `029' is missing
@@ -1632,16 +1636,8 @@ Package lettrine.sty Info: Targeted height = 16.53pt
 (lettrine.sty)             reported on input line 69.
 
 
-[1
-
-{C:/Users/pascu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/pasc
-u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Users/
-pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/User
-s/pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{C:
-/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.
-enc}]
-
-[2]
+[2{C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tl
+f-pc.enc}]
 
 [3]
 
@@ -1649,7 +1645,7 @@ enc}]
 
 pdfTeX warning: pdflatex (file ./fehrs_flat_plate.pdf): PDF inclusion: found PD
 F version <1.6>, but at most version <1.5> allowed
-<fehrs_flat_plate.pdf, id=199, 598.235pt x 531.9875pt>
+<fehrs_flat_plate.pdf, id=204, 598.235pt x 531.9875pt>
 File: fehrs_flat_plate.pdf Graphic file (type pdf)
 <use fehrs_flat_plate.pdf>
 Package pdftex.def Info: fehrs_flat_plate.pdf  used on input line 182.
@@ -1660,17 +1656,17 @@ Package pdftex.def Info: fehrs_flat_plate.pdf  used on input line 182.
 
 pdfTeX warning: pdflatex (file ./braslow.pdf): PDF inclusion: found PDF version
  <1.6>, but at most version <1.5> allowed
-<braslow.pdf, id=209, 598.235pt x 531.9875pt>
+<braslow.pdf, id=217, 598.235pt x 531.9875pt>
 File: braslow.pdf Graphic file (type pdf)
 <use braslow.pdf>
 Package pdftex.def Info: braslow.pdf  used on input line 196.
 (pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-<schwartzberg_extents.pdf, id=210, 598.235pt x 531.9875pt>
+<schwartzberg_extents.pdf, id=218, 598.235pt x 531.9875pt>
 File: schwartzberg_extents.pdf Graphic file (type pdf)
 <use schwartzberg_extents.pdf>
 Package pdftex.def Info: schwartzberg_extents.pdf  used on input line 203.
 (pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-<bl_profiles.pdf, id=211, 598.235pt x 531.9875pt>
+<bl_profiles.pdf, id=219, 598.235pt x 531.9875pt>
 File: bl_profiles.pdf Graphic file (type pdf)
 <use bl_profiles.pdf>
 Package pdftex.def Info: bl_profiles.pdf  used on input line 210.
@@ -1680,7 +1676,7 @@ Package pdftex.def Info: bl_profiles.pdf  used on input line 210.
 [6 <./fehrs_flat_plate.pdf>]
 
 [7 <./braslow.pdf> <./schwartzberg_extents.pdf>]
-<rae2822-suction-schematic.png, id=294, 963.6pt x 243.15843pt>
+<rae2822-suction-schematic.png, id=302, 963.6pt x 243.15843pt>
 File: rae2822-suction-schematic.png Graphic file (type png)
 <use rae2822-suction-schematic.png>
 Package pdftex.def Info: rae2822-suction-schematic.png  used on input line 234.
@@ -1692,32 +1688,31 @@ Package pdftex.def Info: rae2822-suction-schematic.png  used on input line 234.
 
 pdfTeX warning: pdflatex (file ./cpcf.pdf): PDF inclusion: found PDF version <1
 .6>, but at most version <1.5> allowed
-<cpcf.pdf, id=317, 598.235pt x 531.9875pt>
+<cpcf.pdf, id=324, 598.235pt x 531.9875pt>
 File: cpcf.pdf Graphic file (type pdf)
 <use cpcf.pdf>
-Package pdftex.def Info: cpcf.pdf  used on input line 261.
+Package pdftex.def Info: cpcf.pdf  used on input line 266.
 (pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
 
 
 pdfTeX warning: pdflatex (file ./transition_plot.pdf): PDF inclusion: found PDF
  version <1.6>, but at most version <1.5> allowed
-<transition_plot.pdf, id=318, 598.235pt x 531.9875pt>
+<transition_plot.pdf, id=325, 598.235pt x 531.9875pt>
 File: transition_plot.pdf Graphic file (type pdf)
 <use transition_plot.pdf>
-Package pdftex.def Info: transition_plot.pdf  used on input line 268.
+Package pdftex.def Info: transition_plot.pdf  used on input line 273.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+File: cpcf.pdf Graphic file (type pdf)
+<use cpcf.pdf>
+Package pdftex.def Info: cpcf.pdf  used on input line 302.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+File: transition_plot.pdf Graphic file (type pdf)
+<use transition_plot.pdf>
+Package pdftex.def Info: transition_plot.pdf  used on input line 309.
 (pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
 
 
 [9 <./cpcf.pdf>]
-File: cpcf.pdf Graphic file (type pdf)
-<use cpcf.pdf>
-Package pdftex.def Info: cpcf.pdf  used on input line 301.
-(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
-File: transition_plot.pdf Graphic file (type pdf)
-<use transition_plot.pdf>
-Package pdftex.def Info: transition_plot.pdf  used on input line 308.
-(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
-
 
 [10 <./transition_plot.pdf>]
 File: cpcf.pdf Graphic file (type pdf)
@@ -1727,6 +1722,14 @@ Package pdftex.def Info: cpcf.pdf  used on input line 341.
 File: transition_plot.pdf Graphic file (type pdf)
 <use transition_plot.pdf>
 Package pdftex.def Info: transition_plot.pdf  used on input line 348.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+File: cpcf.pdf Graphic file (type pdf)
+<use cpcf.pdf>
+Package pdftex.def Info: cpcf.pdf  used on input line 377.
+(pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
+File: transition_plot.pdf Graphic file (type pdf)
+<use transition_plot.pdf>
+Package pdftex.def Info: transition_plot.pdf  used on input line 384.
 (pdftex.def)             Requested size: 319.96584pt x 284.53339pt.
 
 
@@ -1740,7 +1743,9 @@ Package pdftex.def Info: transition_plot.pdf  used on input line 348.
 
 [15]
 
-[16
+[16]
+
+[17
 
 ] (scitech-2026-conference-jpascual.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -1785,29 +1790,25 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.6pt on input line 17.
 
 
-[17])
+[18])
 
-[18] (scitech-2026-conference-jpascual.aux)
+[19] (scitech-2026-conference-jpascual.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `scitech-2026-conference-jpascual.out' has no
 t changed.
-(rerunfilecheck)             Checksum: CED4D8C2F447EE220FB81539FBE0D347;5212.
+(rerunfilecheck)             Checksum: 342443017AA336E45DF213E376FD3E02;5893.
  ) 
 Here is how much of TeX's memory you used:
- 44798 strings out of 473899
- 1023628 string characters out of 5726499
+ 44829 strings out of 473899
+ 1024213 string characters out of 5726499
  1529158 words of memory out of 5000000
- 66672 multiletter control sequences out of 15000+600000
- 663718 words of font info for 248 fonts, out of 8000000 for 9000
+ 66681 multiletter control sequences out of 15000+600000
+ 664347 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,11n,131p,1653b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,13n,131p,1653b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXM
 I.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/Ne
 wTXMI7.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex
@@ -1818,10 +1819,10 @@ ublic/newtx/txsys.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/newtx/ztmb.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/newtx/ztmr.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/newtx/ztmri.pfb>
-Output written on scitech-2026-conference-jpascual.pdf (18 pages, 666289 bytes)
+Output written on scitech-2026-conference-jpascual.pdf (19 pages, 673056 bytes)
 .
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 49368 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 49384 words of extra memory for PDF output out of 51595 (max. 10000000)
 

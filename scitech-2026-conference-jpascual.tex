@@ -31,7 +31,7 @@
 
 \begin{abstract}
 
-Test
+Hybrid Laminar Flow Control (HLFC) offers a promising approach to reduce drag by extending laminar flow regions on wings through the combination of passive shaping and active boundary-layer suction. In this work, a suction boundary condition is integrated into a Reynolds-Averaged Navier–Stokes (RANS) aerodynamic shape optimization framework coupled with the SA-sLM2015cc local correlation-based transition model. The implementation is first validated against benchmark cases, including flat-plate flow and NACA 64A010 airfoil experiments, demonstrating accurate prediction of laminar-to-turbulent transition under varying suction intensities. Lift-constrained drag minimization is then performed for infinite swept wings under Airbus A340 and A350 operating conditions. Applying suction upstream of the transition location on optimized geometries further delays crossflow-dominated transition, yielding drag reductions of up to 20\% relative to baseline geometries and exceeding reductions achieved by natural laminar flow optimization alone. The study also examines the effects of suction extent, surface porosity, and suction drag and pump-power penalties, highlighting the trade-offs between performance gains and energy requirements. Future work will extend the framework to three-dimensional finite wings and incorporate optimization of suction power and placement to maximize aerodynamic efficiency while minimizing energy consumption, enabling realistic assessments of HLFC for practical aircraft designs.
 
 \end{abstract}
 
@@ -236,17 +236,22 @@ The following cases were completed using the RAE2822 airfoil as the initial geom
 \label{fig:rae2822-suction-schematic}
 \end{figure}
 
-The results for the application of suction to both the upper and lower surfaces upstream of the transition location are shown in Table \ref{tab:a340-results}. Figure \ref{fig:a340-cpcf} shows that the pressure and friction coefficient plots for the baseline and optimized geometry, and one with active suction (applied at $0.1\% U_\infty$) for clarity. For this preliminary optimization, the optimizer is struggling to delay transition on both surfaces. When active suction is applied, it can be seen that the upper surface's transition location is moved downstream for the case shown, resulting in a 10.6\% reduction in drag. The effect of $C_Q$ on the transition location is shown in Figure \ref{fig:a340-transition-plot}, which depicts both the upper and lower surfaces for the suction velocities used in this test. As expected, the transition location is pushed further downstream when a higher suction velocity is used, with substantial benefits compared to the preliminary NLF-optimized case shown with the blue markers.
+The results for the application of suction to both the upper and lower surfaces upstream of the transition location are shown in Table \ref{tab:a340-results}. Figure \ref{fig:a340-cpcf} shows that the pressure and friction coefficient plots for the baseline, NLF-optimized, and suction configurations. As seen int eh table, the NLF optimization provides an 11.8\% reduction in drag, but the optimizer still struggles to substantially delay transition on both surfaces, especially on the lower surface. 
+
+When active suction is introduced, further drag reduction is achieved. When active suction is introduced, the aerodynamic performance improves further. Even the lowest suction level tested ($C_Q = 0.0001$) reduces drag to 59.17 counts, resulting in a 16.4\% drag reduction relative to the baseline. Increasing the suction coefficient consistently enhances the delay of transition, with $C_Q = 0.0010$ producing the lowest drag of 56.55 counts, corresponding to a 20.1\% reduction. 
+
+Figure \ref{fig:a340-transition-plot} illustrates the influence of suction on the transition location for both surfaces. As expected, higher suction velocities push the transition point further downstream. However, the spacing between transition locations decreases with increasing $C_Q$, indicating diminishing returns in transition delay at higher suction levels. Overall, while all suction levels produce substantial improvements relative to the NLF-optimized case, the marginal benefit decreases as the suction intensity is increased, suggesting that there is an optimal value for the suction coefficient.
 
 \begin{table}[!t]
 \centering
-\caption{Summary of results for infinite swept wing with suction. For the optimized geometry, the suction boundary condition is placed at 4\% of the chord with an extent of 1.5\% upstream.}
+\caption{Summary of results for the Airbus A340 case with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2.5\% on the lower surface.}
 \label{tab:a340-results}
 \begin{tabular}{cccc}
 \toprule
 Configuration & $C_D$ (counts) & $L/D$ \\
 \midrule 
 Baseline  & 70.77 &  72.35\\
+Turbulent Optimized  & 62.40 (-6.11\%) &  77.05\\
 NLF Optimized & 62.39 (-11.8\%) & 82.04 \\
 \midrule
 $C_Q = 0.0001$ & 59.17 (-16.4\%) & 87.69 \\
@@ -259,39 +264,74 @@ $C_Q = 0.0010$ & 56.55 (-20.1\%) & 94.36 \\
 \begin{figure}[!t]
 \centering
 \includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{cpcf.pdf}
-\caption{Pressure and friction coefficient plots for cases involving the application of suction to both the upper and lower surface of an optimized geometry. Suction is applied at approximately 3\% of the wing chord on both surfaces.}
+\caption{Pressure and friction coefficient plots at Airbus A340 operating conditions with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2.5\% on the lower surface.}
 \label{fig:a340-cpcf}
 \end{figure}
 
 \begin{figure}[!t]
 \centering
 \includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{transition_plot.pdf}
-\caption{Transition location on the upper and lower surface for various suction velocities when applied to the optimized geometry.}
+\caption{Transition location on the upper and lower surface at Airbus A340 operating conditions for various suction velocities when applied to the optimized geometry.}
 \label{fig:a340-transition-plot}
+\end{figure}
+
+\subsubsection{Application of Suction at the Updated Transition Location}
+BLURB HERE!
+
+\begin{table}[!t]
+\centering
+\caption{Summary of results for the Airbus A340 case with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2.5\% on the lower surface.}
+\label{tab:a340-results-2}
+\begin{tabular}{cccc}
+\toprule
+Configuration & $C_D$ (counts) & $L/D$ \\
+\midrule 
+Baseline  & 70.77 &  72.35\\
+Turbulent Optimized  & 62.40 (-6.11\%) &  77.05\\
+NLF Optimized & 62.39 (-11.8\%) & 82.04 \\
+\midrule
+$C_Q = 0.0001$ & 59.17 (-16.4\%) & 87.69 \\
+$C_Q = 0.0005$ & 57.29 (-19.0\%) & 92.18 \\
+$C_Q = 0.0010$ & 56.55 (-20.1\%) & 94.36 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{cpcf.pdf}
+\caption{Pressure and friction coefficient plots at Airbus A340 operating conditions with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2.5\% on the lower surface.}
+\label{fig:a340-cpcf-2}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{transition_plot.pdf}
+\caption{Transition location on the upper and lower surface at Airbus A340 operating conditions for various suction velocities when applied to the optimized geometry.}
+\label{fig:a340-transition-plot-2}
 \end{figure}
 
 \subsection{Suction Applied to an Optimized Geometry at Airbus A350 Operating Conditions}
 
 This geometry is operated at Airbus A350 conditions consisting of $M = 0.85$, $Re = 38.01 \times 10^6$, $C_L = 0.478$, $\Lambda = 31.9^\circ$. The computational meshes used for this infinite swept wing are 360 $\times$ 120 O-grids. This geometry has 11 axial free-form deformation curves for each surface.
 
-The results for the application of suction to both the upper and lower surfaces upstream of the transition location are shown in Table \ref{tab:a350-results}. Figure \ref{fig:a350-cpcf} shows that the pressure and friction coefficient plots for the baseline and optimized geometry, and one with active suction (applied at $0.1\% \: U_\infty$) for clarity. For this preliminary optimization, the optimizer is struggling to delay transition on both surfaces. When active suction is applied, it can be seen that the upper surface's transition location is moved downstream for the case shown, resulting in a 10.6\% reduction in drag. The effect of $C_Q$ on the transition location is shown in Figure \ref{fig:a350-transition-plot}, which depicts both the upper and lower surfaces for the suction velocities used in this test. As expected, the transition location is pushed further downstream when a higher suction velocity is used, with substantial benefits compared to the preliminary NLF-optimized case shown with the blue markers.
+The results for the application of suction to both the upper and lower surfaces upstream of the transition location are shown in Table \ref{tab:a350-results}, with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2\% on the lower surface. The NLF-optimized shape provides a large improvement, reducing the drag to 55.09 counts (40.58\% drag reduction). When active suction is introduced, additional drag reduction is achieved beyond that obtained through shaping alone. The lowest suction coefficient tested ($C_Q = 0.0001$) decreases the drag to 52.68 counts, corresponding to a 43.18\% reduction relative to the baseline. As the suction level is increased, the drag continues to decrease, reaching 50.56 counts for $C_Q = 0.0010$, although the marginal improvement diminishes between the two highest suction levels. Similar to the cases previously shown, the results demonstrate that the A350 configuration benefits significantly from both aerodynamic shaping and active suction, with the combined approach providing the largest improvements with diminishing returns at higher suction intensities.
 
 \begin{table}[!t]
 \centering
-\caption{Summary of results for infinite swept wing with suction. For the optimized geometry, the suction boundary condition is placed at 4\% of the chord with an extent of 1.5\% upstream.}
+\caption{Summary of results for the Airbus A350 case with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2\% on the lower surface.}
 \label{tab:a350-results}
 \begin{tabular}{cccc}
 \toprule
 Configuration & $C_D$ (counts) & $L/D$ \\
 \midrule 
-Baseline  & 73.88 & 68.22 \\
-NLF Optimized & 56.08 (-\%) & 85.23 \\
+Baseline  & 92.72 & 51.55 \\
+Turbulent Optimized  & 62.40 (-32.70\%) & 76.63 \\
+NLF Optimized & 55.09 (-40.58\%) & 88.51 \\
 \midrule
-$C_Q = 0.0001$ & 67.46 (-8.69\%) & 74.23 \\
-$C_Q = 0.0005$ & 66.04 (-10.61\%) & 76.67\\
-$C_Q = 0.0010$ & 64.14 (-13.18\%) & 80.36 \\
-$C_Q = 0.0050$ & 64.14 (-13.18\%) & 80.36 \\
-
+$C_Q = 0.0001$ & 52.68 (-43.18\%) & 91.85 \\
+$C_Q = 0.0005$ & 50.89 (-45.11\%) & 96.39\\
+$C_Q = 0.0010$ & 50.56 (-45.47\%) & 97.43 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -299,39 +339,35 @@ $C_Q = 0.0050$ & 64.14 (-13.18\%) & 80.36 \\
 \begin{figure}[!t]
 \centering
 \includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{cpcf.pdf}
-\caption{Pressure and friction coefficient plots for cases involving the application of suction to both the upper and lower surface of an optimized geometry. Suction is applied at approximately 3\% of the wing chord on both surfaces.}
+\caption{Pressure and friction coefficient plots at Airbus A350 operating conditions with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2\% on the lower surface.}
 \label{fig:a350-cpcf}
 \end{figure}
 
 \begin{figure}[!t]
 \centering
 \includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{transition_plot.pdf}
-\caption{Transition location on the upper and lower surface for various suction velocities when applied to the optimized geometry.}
+\caption{Transition location on the upper and lower surface at Airbus A350 operating conditions for various suction velocities when applied to the optimized geometry.}
 \label{fig:a350-transition-plot}
 \end{figure}
 
-\subsection{Suction Applied to an Optimized Geometry at Boeing 747 Operating Conditions}
-
-This geometry is operated at Boeing 747 conditions consisting of $M = 0.854$, $Re = 55.14 \times 10^6$, $C_L = 0.457$, $\Lambda = 37.5^\circ$. The computational meshes used for this infinite swept wing are 360 $\times$ 120 O-grids. This geometry has 11 axial free-form deformation curves for each surface.
-
-The results for the application of suction to both the upper and lower surfaces upstream of the transition location are shown in Table \ref{tab:b747-results}. Figure \ref{fig:b747-cpcf} shows that the pressure and friction coefficient plots for the baseline and optimized geometry, and one with active suction (applied at $0.1\% \: U_\infty$) for clarity. For this preliminary optimization, the optimizer is struggling to delay transition on both surfaces. When active suction is applied, it can be seen that the upper surface's transition location is moved downstream for the case shown, resulting in a 10.6\% reduction in drag. The effect of $C_Q$ on the transition location is shown in Figure \ref{fig:b747-transition-plot}, which depicts both the upper and lower surfaces for the suction velocities used in this test. As expected, the transition location is pushed further downstream when a higher suction velocity is used, with substantial benefits compared to the preliminary NLF-optimized case shown with the blue markers.
+\subsubsection{Application of Suction at the Updated Transition Location}
+BLURB HERE!
 
 \begin{table}[!t]
 \centering
-\caption{Summary of results for infinite swept wing with suction. For the optimized geometry, the suction boundary condition is placed at 4\% of the chord with an extent of 1.5\% upstream.}
-\label{tab:b747-results}
+\caption{Summary of results for the Airbus A340 case with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2.5\% on the lower surface.}
+\label{tab:a350-results-2}
 \begin{tabular}{cccc}
 \toprule
 Configuration & $C_D$ (counts) & $L/D$ \\
 \midrule 
-Baseline  & 73.88 & 68.22 \\
-NLF Optimized & 68.11 (-7.80\%) & 73.16 \\
+Baseline  & 70.77 &  72.35\\
+Turbulent Optimized  & 62.40 (-6.11\%) &  77.05\\
+NLF Optimized & 62.39 (-11.8\%) & 82.04 \\
 \midrule
-$C_Q = 0.0001$ & 67.46 (-8.69\%) & 74.23 \\
-$C_Q = 0.0005$ & 66.04 (-10.61\%) & 76.67\\
-$C_Q = 0.0010$ & 64.14 (-13.18\%) & 80.36 \\
-$C_Q = 0.0050$ & 64.14 (-13.18\%) & 80.36 \\
-
+$C_Q = 0.0001$ & 59.17 (-16.4\%) & 87.69 \\
+$C_Q = 0.0005$ & 57.29 (-19.0\%) & 92.18 \\
+$C_Q = 0.0010$ & 56.55 (-20.1\%) & 94.36 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -339,16 +375,56 @@ $C_Q = 0.0050$ & 64.14 (-13.18\%) & 80.36 \\
 \begin{figure}[!t]
 \centering
 \includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{cpcf.pdf}
-\caption{Pressure and friction coefficient plots for cases involving the application of suction to both the upper and lower surface of an optimized geometry. Suction is applied at approximately 3\% of the wing chord on both surfaces.}
-\label{fig:b747-cpcf}
+\caption{Pressure and friction coefficient plots at Airbus A340 operating conditions with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2.5\% on the lower surface.}
+\label{fig:a350-cpcf-2}
 \end{figure}
 
 \begin{figure}[!t]
 \centering
 \includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{transition_plot.pdf}
-\caption{Transition location on the upper and lower surface for various suction velocities when applied to the optimized geometry.}
-\label{fig:b747-transition-plot}
+\caption{Transition location on the upper and lower surface at Airbus A340 operating conditions for various suction velocities when applied to the optimized geometry.}
+\label{fig:a350-transition-plot-2}
 \end{figure}
+
+%\subsection{Suction Applied to an Optimized Geometry at Boeing 747 Operating Conditions}
+%
+%This geometry is operated at Boeing 747 conditions consisting of $M = 0.854$, $Re = 55.14 \times 10^6$, $C_L = 0.457$, $\Lambda = 37.5^\circ$. The computational meshes used for this infinite swept wing are 360 $\times$ 120 O-grids. This geometry has 11 axial free-form deformation curves for each surface.
+%
+%The results for the application of suction to both the upper and lower surfaces upstream of the transition location are shown in Table \ref{tab:b747-results}. Figure \ref{fig:b747-cpcf} shows that the pressure and friction coefficient plots for the baseline and optimized geometry, and one with active suction (applied at $0.1\% \: U_\infty$) for clarity. For this preliminary optimization, the optimizer is struggling to delay transition on both surfaces. When active suction is applied, it can be seen that the upper surface's transition location is moved downstream for the case shown, resulting in a 10.6\% reduction in drag. The effect of $C_Q$ on the transition location is shown in Figure \ref{fig:b747-transition-plot}, which depicts both the upper and lower surfaces for the suction velocities used in this test. As expected, the transition location is pushed further downstream when a higher suction velocity is used, with substantial benefits compared to the preliminary NLF-optimized case shown with the blue markers.
+%
+%\begin{table}[!t]
+%\centering
+%\caption{Summary of results for infinite swept wing with suction. For the optimized geometry, the suction boundary condition is placed at 4\% of the chord with an extent of 1.5\% upstream.}
+%\label{tab:b747-results}
+%\begin{tabular}{cccc}
+%\toprule
+%Configuration & $C_D$ (counts) & $L/D$ \\
+%\midrule 
+%Baseline  & 73.88 & 68.22 \\
+%NLF Optimized & 68.11 (-7.80\%) & 73.16 \\
+%\midrule
+%$C_Q = 0.0001$ & 67.46 (-8.69\%) & 74.23 \\
+%$C_Q = 0.0005$ & 66.04 (-10.61\%) & 76.67\\
+%$C_Q = 0.0010$ & 64.14 (-13.18\%) & 80.36 \\
+%$C_Q = 0.0050$ & 64.14 (-13.18\%) & 80.36 \\
+%
+%\bottomrule
+%\end{tabular}
+%\end{table}
+%
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{cpcf.pdf}
+%\caption{Pressure and friction coefficient plots for cases involving the application of suction to both the upper and lower surface of an optimized geometry. Suction is applied at approximately 3\% of the wing chord on both surfaces.}
+%\label{fig:b747-cpcf}
+%\end{figure}
+%
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[height = 10cm, width = \textwidth, keepaspectratio]{transition_plot.pdf}
+%\caption{Transition location on the upper and lower surface for various suction velocities when applied to the optimized geometry.}
+%\label{fig:b747-transition-plot}
+%\end{figure}
 
 \subsection{Suction Drag and Suction Pump Power Penalty Considerations}
 This section evaluates the penalty implications associated with the suction drag, defined in Equation \ref{eq:suction-drag}, and suction-pump requirements, defined in Equation \ref{eq:suction-pump-power}, providing insight into their influence on the overall performance of the HLFC system. The following cases were completed with the same geometry and operating conditions as Section \ref{sub:a340-infinite-swept} for the Airbus A340. The results in Table \ref{tab:penalty-considerations} show the application of suction over the leading edge of the wing, as shown in Figure \ref{fig:rae2822-suction-schematic}, penalties for suction drag, suction pump power, and a combination of both considered, for various suction coefficients. The results demonstrate that for suction coefficients less than $C_Q = 0.0001$, the amount of drag from both suction drag penalties is nearly negligible, with the combination contributing 0.29\%. When suction power is increased, as shown with $C_Q = 0.0005$ and $0.0010$, the suction drag has an expected increasing contribution to the drag. When a relatively high suction coefficient of $C_Q=0.0050$ is used, the suction applied becomes excessive, no longer providing stabilization but rather increasing drag and potentially triggering earlier turbulent transition.
@@ -388,10 +464,11 @@ Combined & 67.71 (14.20\%) & 76.35 \\
 \end{tabular}
 \end{table}
 
-\subsection{Porosity and Local Wall Shear Considerations}
-This section investigates the influence of varying suction extent on the transition front, while maintaining a constant $C_Q$, and also incorporates local wall-shear effects by prescribing a node-wise porosity factor that reflects the shear conditions at each surface location. These cases were completed using the RAE2822 airfoil as the initial geometry, with operating conditions of $M = 0.785$, $Re = 20.3 \times 10^6$, $C_L = 0.5$, $\Lambda = 25^\circ$. The computational meshes for these geometries are 300 x 122 O-grids. 
+\subsection{Suction Extent and Porosity Considerations}
+This section investigates the influence of varying suction extent on the transition front, while maintaining a constant $C_Q$, and also incorporates local wall-shear effects by prescribing a node-wise porosity factor that reflects the shear conditions at each surface location. These cases were completed using the RAE2822 airfoil as the initial geometry, with operating conditions of $M = 0.785$, $Re = 20.3 \times 10^6$, $C_L = 0.5$, $\Lambda = 25^\circ$. The computational meshes for these geometries are 300 x 122 O-grids. Suction is applied on the upper surface from 20\% -25\% chord with a suction coefficient of $C_Q = 0.0001$.
 
-\subsubsection{Effect of Suction Extent on Transition Location}
+\subsubsection{Effect of Suction Extent on Transition Location with a Constant Suction Coefficient}
+\label{subsub:suction-extent}
 The application of suction is shown in Figure \ref{fig:suction-extent}, where over a range of 15 nodes, the effect of decreasing the extent while maintaining $C_Q$ constant by increasing the local suction velocity is investigated. 
 
 \begin{figure}
@@ -420,34 +497,63 @@ The application of suction is shown in Figure \ref{fig:suction-extent}, where ov
 \begin{table}[!t]
 \centering
 \caption{Summary of results for infinite swept wing while varying the suction extent upstream of the transition location and maintaining a constant suction coefficient.}
-\label{tab:b747-results}
-\begin{tabular}{cccc}
+\label{tab:suction-extent}
+\begin{tabular}{ccc}
 \toprule
-Configuration & $C_D$ (counts) & Transition Location ($x/c$) \\
+Configuration & $v_{\text{suc}}$ & $C_D$ (counts) \\
 \midrule 
-Baseline  & 60.25 & 25.1\% \\
+Baseline  & - & 60.25 \\
 \midrule
 \textbf{Suction Nodes} & & \\
-15/15 Nodes &  (-\%) & \% \\
-14/15 Nodes &  (-\%) &  \\
-13/15 Nodes &  (-\%) &  \\
-12/15 Nodes &  (-\%) &  \\
-11/15 Nodes &  (-\%) &  \\
-10/15 Nodes &  (-\%) &  \\
-9/15 Nodes &  (-\%) &  \\
-8/15 Nodes &  (-\%) &  \\
+15/15 Nodes & $0.0100 \: U_\infty$ & 58.67 (-2.62\%)  \\
+14/15 Nodes & $0.0107 \: U_\infty$ & 58.70 (-2.57\%)  \\
+13/15 Nodes & $0.0115 \: U_\infty$ & 58.73 (-2.52\%)  \\
+12/15 Nodes & $0.0125 \: U_\infty$ & 58.75 (-2.49\%) \\
+11/15 Nodes & $0.0136 \: U_\infty$ & 58.79 (-2.42\%)  \\
+10/15 Nodes & $0.0150 \: U_\infty$ & 58.83 (-2.36\%)  \\
+9/15 Nodes & $0.0167 \: U_\infty$  & 58.87 (-2.29\%)  \\
+8/15 Nodes & $0.0188 \: U_\infty$  & 58.95 (-2.16\%)  \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \clearpage
 
+\subsubsection{Wall Porosity Considerations}
+This section investigates wall porosity considerations using a coefficient to allocate part of the drag over the specified region as suction drag and the rest as skin friction and pressure drag, treating it as a solid wall. This results in the overall drag over the suction region being defined as:
+
+\begin{equation}
+C_{\text{d,total}} = (1-p) \cdot (C_{\text{d,f}} + C_{\text{d,p}}) + p \cdot C_{\text{d,suc}},
+\label{eq:porosity}
+\end{equation}
+
+\noindent where $p$ is the porosity of the region and $C_{\text{d,suc}}$ is the suction drag defined in Equation \ref{eq:suction-drag}. The results for the application of suction in Table \ref{tab:wall-porosity-results} demonstrate that when suction is applied from 20\% -- 25\% chord on the upper surface, there is small change overall drag coefficient. The small variation in overall drag with porosity is expected, as the suction extent is small and located in an area where the boundary layer is already relatively thin. As a result, the contribution of suction drag to the total drag is modest, and the redistribution between suction and skin-friction drag has limited influence. For configurations where suction is distributed over a larger chordwise extent, the suction drag contribution would represent a larger proportion of the total drag.
+
+\begin{table}[!t]
+\centering
+\caption{Summary of results for infinite swept wing while varying the porosity of the surface over which suction is applied. A suction coefficient of $\mathbf{C_Q = 0.0001}$ is used.}
+\label{tab:wall-porosity-results}
+\begin{tabular}{cccc}
+\toprule
+Porosity & $C_{\text{d,total}}$ (counts) & L/D \\
+\midrule
+1.00 & 58.67 & 79.03 \\
+0.10 & 58.95 (0.47\%) & 78.65 \\
+0.20 & 58.92 (0.43\%) & 78.69 \\
+0.30 & 58.89 (0.37\%) & 78.74 \\
+0.40 & 58.86 (0.33\%) & 78.78 \\
+0.50 & 58.83 (0.27\%) & 78.82 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \section{Conclusions}
 \label{sec:conclusion}
-REDO!
-In this paper, we present a framework for aerodynamic shape optimization using active flow control through the use of suction to delay boundary-layer transition. This work includes airfoil and infinite swept wing lift-constrained drag minimization optimizations with fixed suction applications. In the case of the airfoil, flow evaluations and optimizations demonstrate that boundary-layer suction is capable of greatly suppressing Tollmien-Schlichting instabilities. A suction boundary condition was applied upstream of the transition location spanning roughly 2\% of the airfoil chord at suction speeds of $0.1\% \: U_\infty$ and $0.5\% \: U_\infty$. By increasing the suction speed, there was an increase in the drag reduction and the transition location was moved further downstream. By adding a second suction location at this new transition location, further drag reductions were obtained, indicating the successful application of multiple suction locations at varying suction velocities. The airfoil was then optimized with suction at a speed of $0.1\% \: U_\infty$ applied upstream of the baseline transition location, yielding a higher drag reduction compared to an airfoil optimized without the application of suction. These results indicate that the application of suction to a geometry optimized without suction present yields a higher drag reduction compared to the case where optimization is performed with a fixed suction location. 
+In this paper, we present a framework for aerodynamic shape optimization incorporating Hybrid Laminar Flow Control (HLFC) through active boundary-layer suction. The methodology was first validated against benchmark cases including flat-plate flow and NACA 64A010 airfoil experiments, demonstrating accurate prediction of laminar-to-turbulent transition and suction effects. Lift-constrained drag minimization was then performed for airfoils and infinite swept wings with fixed suction applications. For infinite swept wings at Airbus A340 and A350 operating conditions, aerodynamic shaping combined with suction delayed crossflow-dominated transition, yielding substantial drag reductions beyond those achieved by geometry-only NLF optimization. The results also highlighted diminishing returns at higher suction levels and demonstrated that moderate suction can deliver significant performance gains while keeping suction drag and pump-power penalties low.
 
-In the case of the infinite swept wing with fixed suction, the results demonstrate that boundary-layer suction, in combination with aerodynamic shape optimization, is able to adequately suppress crossflow instabilities and move the transition location downstream. Similar to the airfoil case, suction was applied upstream of the transition location and the geometry was then optimized. The results with suction yielded a higher drag reduction compared with those without the presence of suction. Compared with the case where suction is applied to a previously optimized geometry, the optimization with the suction boundary condition yielded a higher drag reduction, in contrast to the airfoil case. The results shown in this paper demonstrate that the approach to modelling suction and laminar-turbulent transition provides a promising methodology for the future study and optimization of wings for hybrid laminar flow control.
+Future work will focus on extending this framework to three-dimensional, finite wings to capture realistic planform effects and full spanwise flow behavior. Optimization of suction power and placement will also be incorporated to identify the most effective combination of suction intensity and location for drag reduction while minimizing energy expenditure. These developments will enable more realistic assessments of HLFC performance for practical aircraft configurations and support the design of efficient suction-based laminar flow control systems.
+
+
 
 \section*{Acknowledgements}
 This work is partially funded by Bombardier, Transport Canada, the Natural Sciences and Engineering Research Council (NSERC), and the University of Toronto. All results in this paper were computed on the Niagara and Trillium supercomputers at the SciNet HPC Consortium, a part of the Digital Research Alliance of Canada.
