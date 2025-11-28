@@ -13,47 +13,46 @@ Warning--there's a number but no volume in bobbitt_results_1992
 Warning--empty pages in Pascual2025-bx
 Warning--empty pages in osusky_parallel_2010
 Warning--empty pages in piotrowski_investigation_2019
-Warning--empty pages in piotrowski_investigation_2022
 Warning--there's a number but no volume in spalart_one-equation_1994
-You've used 32 entries,
+You've used 31 entries,
             3319 wiz_defined-function locations,
-            897 strings with 12862 characters,
-and the built_in function-call counts, 19120 in all, are:
-= -- 1446
-> -- 575
-< -- 74
-+ -- 242
-- -- 173
-* -- 1588
-:= -- 2554
-add.period$ -- 81
-call.type$ -- 32
-change.case$ -- 128
-chr.to.int$ -- 33
-cite$ -- 41
-duplicate$ -- 1693
-empty$ -- 1575
-format.name$ -- 286
-if$ -- 3900
+            891 strings with 12568 characters,
+and the built_in function-call counts, 18630 in all, are:
+= -- 1413
+> -- 561
+< -- 73
++ -- 236
+- -- 169
+* -- 1543
+:= -- 2485
+add.period$ -- 78
+call.type$ -- 31
+change.case$ -- 124
+chr.to.int$ -- 32
+cite$ -- 39
+duplicate$ -- 1647
+empty$ -- 1530
+format.name$ -- 277
+if$ -- 3804
 int.to.chr$ -- 1
-int.to.str$ -- 33
-missing$ -- 298
-newline$ -- 123
-num.names$ -- 96
-pop$ -- 620
+int.to.str$ -- 32
+missing$ -- 289
+newline$ -- 119
+num.names$ -- 93
+pop$ -- 598
 preamble$ -- 1
-purify$ -- 128
+purify$ -- 124
 quote$ -- 0
-skip$ -- 614
+skip$ -- 602
 stack$ -- 0
-substring$ -- 999
-swap$ -- 1027
+substring$ -- 987
+swap$ -- 1004
 text.length$ -- 55
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 192
-warning$ -- 9
-while$ -- 118
+type$ -- 186
+warning$ -- 8
+while$ -- 116
 width$ -- 0
-write$ -- 385
-(There were 9 warnings)
+write$ -- 373
+(There were 8 warnings)

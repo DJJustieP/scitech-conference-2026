@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  21 NOV 2025 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  28 NOV 2025 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1620,200 +1620,141 @@ LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
 (Font)              scaled to size 5.5pt on input line 55.
 
+
 [1
 
 {C:/Users/pascu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/pasc
 u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/Users/
 pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/User
 s/pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 70.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/ntxtlf/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.53pt on input line 70.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.45271pt on input line 70.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.45271pt on input line 70.
-Package lettrine.sty Info: Targeted height = 16.53pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 16.8357pt (\textbf {T});
-(lettrine.sty)             reported on input line 70.
 
-
-[2{C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tl
-f-pc.enc}]
+[2]
 
 [3]
 
-[4]
-
 pdfTeX warning: pdflatex (file ./fehrs_flat_plate.pdf): PDF inclusion: found PD
 F version <1.6>, but at most version <1.5> allowed
-<fehrs_flat_plate.pdf, id=204, 598.235pt x 531.9875pt>
+<fehrs_flat_plate.pdf, id=154, 598.235pt x 531.9875pt>
 File: fehrs_flat_plate.pdf Graphic file (type pdf)
 <use fehrs_flat_plate.pdf>
-Package pdftex.def Info: fehrs_flat_plate.pdf  used on input line 183.
+Package pdftex.def Info: fehrs_flat_plate.pdf  used on input line 157.
 (pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
 
 
-[5]
+[4]
 
 pdfTeX warning: pdflatex (file ./braslow.pdf): PDF inclusion: found PDF version
  <1.6>, but at most version <1.5> allowed
-<braslow.pdf, id=217, 598.235pt x 531.9875pt>
+<braslow.pdf, id=168, 598.235pt x 531.9875pt>
 File: braslow.pdf Graphic file (type pdf)
 <use braslow.pdf>
-Package pdftex.def Info: braslow.pdf  used on input line 197.
+Package pdftex.def Info: braslow.pdf  used on input line 171.
 (pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-<schwartzberg_extents.pdf, id=218, 598.235pt x 531.9875pt>
+<schwartzberg_extents.pdf, id=169, 598.235pt x 531.9875pt>
 File: schwartzberg_extents.pdf Graphic file (type pdf)
 <use schwartzberg_extents.pdf>
-Package pdftex.def Info: schwartzberg_extents.pdf  used on input line 204.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-<bl_profiles.pdf, id=219, 598.235pt x 531.9875pt>
+Package pdftex.def Info: schwartzberg_extents.pdf  used on input line 178.
+(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
+<bl_profiles.pdf, id=170, 598.235pt x 531.9875pt>
 File: bl_profiles.pdf Graphic file (type pdf)
 <use bl_profiles.pdf>
-Package pdftex.def Info: bl_profiles.pdf  used on input line 211.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
+Package pdftex.def Info: bl_profiles.pdf  used on input line 185.
+(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
 
 
-[6 <./fehrs_flat_plate.pdf>]
+[5 <./fehrs_flat_plate.pdf>]
 
-[7 <./braslow.pdf> <./schwartzberg_extents.pdf>]
-<rae2822-suction-schematic.png, id=302, 963.6pt x 243.15843pt>
-File: rae2822-suction-schematic.png Graphic file (type png)
-<use rae2822-suction-schematic.png>
-Package pdftex.def Info: rae2822-suction-schematic.png  used on input line 235.
-
-(pdftex.def)             Requested size: 227.6223pt x 57.43906pt.
-
-
-[8 <./bl_profiles.pdf> <./rae2822-suction-schematic.png>]
-<a340-cpcf1.pdf, id=324, 598.235pt x 531.9875pt>
+[6 <./braslow.pdf> <./schwartzberg_extents.pdf>]
+<a340-cpcf1.pdf, id=258, 598.235pt x 531.9875pt>
 File: a340-cpcf1.pdf Graphic file (type pdf)
 <use a340-cpcf1.pdf>
-Package pdftex.def Info: a340-cpcf1.pdf  used on input line 267.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-<a340-transition-plot1.pdf, id=325, 598.235pt x 531.9875pt>
+Package pdftex.def Info: a340-cpcf1.pdf  used on input line 236.
+(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
+<a340-transition-plot1.pdf, id=259, 598.235pt x 531.9875pt>
 File: a340-transition-plot1.pdf Graphic file (type pdf)
 <use a340-transition-plot1.pdf>
-Package pdftex.def Info: a340-transition-plot1.pdf  used on input line 274.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-
-
-[9 <./a340-cpcf1.pdf>]
-<a340-cpcf2.pdf, id=345, 598.235pt x 531.9875pt>
+Package pdftex.def Info: a340-transition-plot1.pdf  used on input line 243.
+(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
+<a340-cpcf2.pdf, id=263, 598.235pt x 531.9875pt>
 File: a340-cpcf2.pdf Graphic file (type pdf)
 <use a340-cpcf2.pdf>
-Package pdftex.def Info: a340-cpcf2.pdf  used on input line 303.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-<a340-transition-plot2.pdf, id=346, 598.235pt x 531.9875pt>
+Package pdftex.def Info: a340-cpcf2.pdf  used on input line 270.
+(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
+<a340-transition-plot2.pdf, id=264, 598.235pt x 531.9875pt>
 File: a340-transition-plot2.pdf Graphic file (type pdf)
 <use a340-transition-plot2.pdf>
-Package pdftex.def Info: a340-transition-plot2.pdf  used on input line 310.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-<a350-cpcf1.pdf, id=348, 598.235pt x 531.9875pt>
-File: a350-cpcf1.pdf Graphic file (type pdf)
-<use a350-cpcf1.pdf>
-Package pdftex.def Info: a350-cpcf1.pdf  used on input line 342.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-<a350-transition-plot1.pdf, id=349, 598.235pt x 531.9875pt>
-File: a350-transition-plot1.pdf Graphic file (type pdf)
-<use a350-transition-plot1.pdf>
-Package pdftex.def Info: a350-transition-plot1.pdf  used on input line 349.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
+Package pdftex.def Info: a340-transition-plot2.pdf  used on input line 277.
+(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
 
 
-[10 <./a340-transition-plot1.pdf>]
+[7 <./bl_profiles.pdf>]
 
-[11 <./a340-cpcf2.pdf> <./a340-transition-plot2.pdf>]
-<a350-cpcf2.pdf, id=388, 598.235pt x 531.9875pt>
-File: a350-cpcf2.pdf Graphic file (type pdf)
-<use a350-cpcf2.pdf>
-Package pdftex.def Info: a350-cpcf2.pdf  used on input line 378.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
-<a350-transition-plot2.pdf, id=389, 598.235pt x 531.9875pt>
-File: a350-transition-plot2.pdf Graphic file (type pdf)
-<use a350-transition-plot2.pdf>
-Package pdftex.def Info: a350-transition-plot2.pdf  used on input line 385.
-(pdftex.def)             Requested size: 255.9672pt x 227.62184pt.
+[8 <./a340-cpcf1.pdf>]
 
+[9 <./a340-transition-plot1.pdf> <./a340-cpcf2.pdf>]
 
-[12 <./a350-cpcf1.pdf>]
-
-[13 <./a350-transition-plot1.pdf> <./a350-cpcf2.pdf>]
-
-[14 <./a350-transition-plot2.pdf>]
-
-[15]
-
-[16
-
-] (scitech-2026-conference-jpascual.bbl
+[10 <./a340-transition-plot2.pdf>] (scitech-2026-conference-jpascual.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 9.0pt on input line 12.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 18.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 18.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 18.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 18.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 18.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 18.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 18.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 18.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 18.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 18.
 
 
-[17])
+[11])
 
-[18] (scitech-2026-conference-jpascual.aux)
+[12] (scitech-2026-conference-jpascual.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `scitech-2026-conference-jpascual.out' has no
 t changed.
-(rerunfilecheck)             Checksum: 342443017AA336E45DF213E376FD3E02;5893.
+(rerunfilecheck)             Checksum: 2F712051D56E6F25C8E7D3BD71504107;2855.
  ) 
 Here is how much of TeX's memory you used:
- 44937 strings out of 473899
- 1026783 string characters out of 5726499
+ 44716 strings out of 473899
+ 1021843 string characters out of 5726499
  1529771 words of memory out of 5000000
- 66786 multiletter control sequences out of 15000+600000
- 664347 words of font info for 255 fonts, out of 8000000 for 9000
+ 66624 multiletter control sequences out of 15000+600000
+ 650473 words of font info for 237 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,13n,131p,1653b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,11n,131p,1774b,1131s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXM
 I.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/Ne
 wTXMI7.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex
@@ -1824,10 +1765,10 @@ ublic/newtx/txsys.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/newtx/ztmb.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/newtx/ztmr.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/newtx/ztmri.pfb>
-Output written on scitech-2026-conference-jpascual.pdf (18 pages, 599236 bytes)
+Output written on scitech-2026-conference-jpascual.pdf (12 pages, 458777 bytes)
 .
 PDF statistics:
- 559 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 49414 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 417 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 41117 words of extra memory for PDF output out of 42996 (max. 10000000)
 

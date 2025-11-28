@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{31}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -11,16 +11,16 @@
 Bushnell, D., \enquote{Overview of aircraft drag reduction technology,}
   \emph{AGARD Report 786}, 1992.
 
-\bibitem[{Green(2003)}]{green_civil_2003}
-Green, J.~E., \enquote{Civil aviation and the environmental challenge,}
-  \emph{The Aeronautical Journal}, Vol. 107, No. 1072, 2003, pp. 281--299.
-\newblock \doi{10.1017/S0001924000013579}.
-
 \bibitem[{Green(2006)}]{green_civil_2006}
 Green, J.~E., \enquote{Civil aviation and the environment – the next frontier
   for the aerodynamicist,} \emph{The Aeronautical Journal}, Vol. 110, No. 1110,
   2006, pp. 469--486.
 \newblock \doi{10.1017/S0001924000001378}.
+
+\bibitem[{Green(2003)}]{green_civil_2003}
+Green, J.~E., \enquote{Civil aviation and the environmental challenge,}
+  \emph{The Aeronautical Journal}, Vol. 107, No. 1072, 2003, pp. 281--299.
+\newblock \doi{10.1017/S0001924000013579}.
 
 \bibitem[{Lynde and Campbell(2017)}]{lynde_computational_2017}
 Lynde, M.~N., and Campbell, R.~L., \enquote{Computational {Design} and
@@ -101,6 +101,13 @@ Pascual, J.~M., and Zingg, D.~W., \enquote{Progress in the application of an
   AIAA Paper 2025-0484}, American Institute of Aeronautics and Astronautics,
   Reston, Virginia, 2025.
 
+\bibitem[{Piotrowski and Zingg(2021)}]{piotrowski_smooth_2021}
+Piotrowski, M. G.~H., and Zingg, D.~W., \enquote{Smooth {Local}
+  {Correlation}-{Based} {Transition} {Model} for the {Spalart}–{Allmaras}
+  {Turbulence} {Model},} \emph{AIAA Journal}, Vol.~59, No.~2, 2021, pp.
+  474--492.
+\newblock \doi{10.2514/1.J059784}.
+
 \bibitem[{Piotrowski and Zingg(2023)}]{piotrowski_compressibility_2023}
 Piotrowski, M., and Zingg, D., \enquote{Compressibility corrections to extend a
   smooth local correlation-based transition model to transonic flows,}
@@ -129,13 +136,6 @@ Piotrowski, M., and Zingg, D.~W., \enquote{Investigation of a {Local}
   Astronautics, San Diego, California, 2019.
 \newblock \doi{10.2514/6.2019-2299}.
 
-\bibitem[{Piotrowski and Zingg(2021)}]{piotrowski_smooth_2021}
-Piotrowski, M. G.~H., and Zingg, D.~W., \enquote{Smooth {Local}
-  {Correlation}-{Based} {Transition} {Model} for the {Spalart}–{Allmaras}
-  {Turbulence} {Model},} \emph{AIAA Journal}, Vol.~59, No.~2, 2021, pp.
-  474--492.
-\newblock \doi{10.2514/1.J059784}.
-
 \bibitem[{Hicken and Zingg(2010)}]{hicken_aerodynamic_2010}
 Hicken, J.~E., and Zingg, D.~W., \enquote{Aerodynamic {Optimization}
   {Algorithm} with {Integrated} {Geometry} {Parameterization} and {Mesh}
@@ -162,13 +162,15 @@ Del Rey~Fernández, D.~C., Hicken, J.~E., and Zingg, D.~W.,
   Vol.~75, No.~1, 2018, pp. 83--110.
 \newblock \doi{10.1007/s10915-017-0523-7}.
 
-\bibitem[{Piotrowski and Zingg(2022)}]{piotrowski_investigation_2022}
-Piotrowski, M.~G., and Zingg, D.~W., \enquote{Investigation of a {Smooth}
-  {Local} {Correlation}-based {Transition} {Model} in a {Discrete}-{Adjoint}
-  {Aerodynamic} {Shape} {Optimization} {Algorithm},} \emph{{AIAA} {SCITECH}
-  2022 {Forum}}, American Institute of Aeronautics and Astronautics, San Diego,
-  CA \& Virtual, 2022.
-\newblock \doi{10.2514/6.2022-1865}.
+\bibitem[{Jameson et~al.(1998)Jameson, Martinelli, and Pierce}]{Jameson1998-sf}
+Jameson, A., Martinelli, L., and Pierce, N.~A., \enquote{Optimum aerodynamic
+  design using the Navier-Stokes equations,} \emph{Theor. Comput. Fluid Dyn.},
+  Vol.~10, No. 1-4, 1998, pp. 213--237.
+
+\bibitem[{Osusky et~al.(2015)Osusky, Buckley, Reist, and Zingg}]{Osusky2015-qh}
+Osusky, L., Buckley, H., Reist, T., and Zingg, D.~W., \enquote{Drag
+  minimization based on the Navier--Stokes equations using a Newton--Krylov
+  approach,} \emph{AIAA J.}, Vol.~53, No.~6, 2015, pp. 1555--1577.
 
 \bibitem[{Langtry and Menter(2009)}]{langtry_correlation-based_2009}
 Langtry, R.~B., and Menter, F.~R., \enquote{Correlation-{Based} {Transition}
@@ -181,16 +183,6 @@ Langtry, R.~B., and Menter, F.~R., \enquote{Correlation-{Based} {Transition}
 Spalart, P.~R., and Allmaras, S.~R., \enquote{A one-equation turbulence model
   for aerodynamic flows,} \emph{La Recherche Aerospatiale}, , No.~1, 1994, pp.
   5--21.
-
-\bibitem[{Jameson et~al.(1998)Jameson, Martinelli, and Pierce}]{Jameson1998-sf}
-Jameson, A., Martinelli, L., and Pierce, N.~A., \enquote{Optimum aerodynamic
-  design using the Navier-Stokes equations,} \emph{Theor. Comput. Fluid Dyn.},
-  Vol.~10, No. 1-4, 1998, pp. 213--237.
-
-\bibitem[{Osusky et~al.(2015)Osusky, Buckley, Reist, and Zingg}]{Osusky2015-qh}
-Osusky, L., Buckley, H., Reist, T., and Zingg, D.~W., \enquote{Drag
-  minimization based on the Navier--Stokes equations using a Newton--Krylov
-  approach,} \emph{AIAA J.}, Vol.~53, No.~6, 2015, pp. 1555--1577.
 
 \bibitem[{Fehrs(2020)}]{Fehrs2020-qg}
 Fehrs, M., \enquote{Boundary layer suction modeling based on the {DLR}
