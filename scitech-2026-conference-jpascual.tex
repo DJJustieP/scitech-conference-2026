@@ -16,6 +16,8 @@
 \usepackage{pgfplots} %create graphics
 \usepackage{lettrine} % make a fancy letter
 \usepackage{subcaption}  %used to make subfigures
+\usepackage{placeins}
+
 
 \newcommand\yesnumber{\addtocounter{equation}{1}\tag{\theequation}}
 
@@ -32,7 +34,7 @@
 
 \begin{abstract}
 
-Hybrid laminar flow control (HLFC) offers a promising approach to reducing drag by extending laminar flow regions on wings through the combination of passive shaping and active boundary-layer suction. In this work, a suction boundary condition is integrated into a Reynolds-averaged Navier–Stokes aerodynamic shape optimization framework coupled with the SA-sLM2015cc local correlation-based transition model. The implementation is first validated against benchmark cases, including flat-plate flow and NACA 64A010 airfoil experiments, demonstrating accurate prediction of laminar-to-turbulent transition under varying suction intensities. Lift-constrained drag minimization is then performed with natural laminar flow, i.e,. without suction, for infinite swept wings under estimated Airbus A340 operating conditions. Applying suction upstream of the transition location on the optimized geometries further delays crossflow-dominated transition, yielding drag reductions of up to 15\% relative to fully-turbulent optimized geometries and exceeding reductions achieved by natural laminar flow optimization alone.
+Hybrid laminar flow control (HLFC) offers a promising approach to reducing drag by extending laminar flow regions on wings through the combination of passive shaping and active boundary-layer suction. In this work, a suction boundary condition is integrated into a Reynolds-averaged Navier–Stokes aerodynamic shape optimization framework coupled with the SA-sLM2015cc local correlation-based transition model. The implementation is first validated against benchmark cases, including flat-plate flow and NACA 64A010 airfoil experiments, demonstrating accurate prediction of laminar-to-turbulent transition under varying suction intensities. Lift-constrained drag minimization is then performed with natural laminar flow, i.e,. without suction, for infinite swept wings under estimated Airbus A340 operating conditions. Applying suction upstream of the transition location on the optimized geometries further delays crossflow-dominated transition, yielding drag reductions of up to 15\% relative to fully-turbulent optimized geometries, demonstrating that the implementation of HLFC can exceed reductions achieved by natural laminar flow optimization alone.
 
 \end{abstract}
 
@@ -69,18 +71,16 @@ $\xi$ & curvilinear coordinate \\
 
 The commercial aviation industry has experienced significant growth over the past few decades. This growing demand has heightened environmental concerns, driving interest in the development of more efficient aircraft designs. Aerodynamic shape optimization supports this effort by iteratively simulating and refining designs to improve specific performance metrics, offering a more systematic and effective alternative to traditional manual design iteration methods.
 
-For a typical commercial aircraft, viscous drag contributes roughly 50\% of the overall drag while operating at cruise conditions \cite{bushnell_overview_1992}. As flow passes over a surface, it transitions from laminar to turbulent, with turbulent flow having higher frictional forces and a thicker boundary layer, increasing the overall drag. There are two main mechanisms through which flow transitions on commercial aircraft, the first being Tollmien-Schlichting (TS) instabilities, which occur in two-dimensional boundary layers in the form of vortices aligned in the spanwise direction. These instabilities are highly receptive to disturbances in the flow, and can be amplified as they are advected downstream, resulting in transition to turbulence \cite{green_civil_2006}. The second mechanism is crossflow (CF) instabilities, which can arise on swept wings and are characterized by an inflection point in the transverse velocity profile. This inflection point causes the flow to be unstable, resulting in streamwise vortices that transition the flow to turbulence.
+For a typical commercial aircraft, viscous drag contributes roughly 50\% of the overall drag while operating at cruise conditions \cite{bushnell_overview_1992}. As flow passes over a surface, it transitions from laminar to turbulent, with turbulent flow having higher frictional forces and a thicker boundary layer, increasing the overall drag. There are two main mechanisms through which flow transitions on commercial aircraft, the first being Tollmien-Schlichting (TS) instabilities, which occur in two-dimensional boundary layers in the form of vortices aligned in the spanwise direction. These instabilities are highly receptive to disturbances in the flow and can be amplified as they are advected downstream, resulting in transition to turbulence \cite{green_civil_2006}. The second mechanism is crossflow (CF) instabilities, which can arise on swept wings and are characterized by an inflection point in the transverse velocity profile. This inflection point causes the flow to be unstable, resulting in streamwise vortices that transition the flow to turbulence.
 
-To delay this transition from laminar to turbulent flow, flow control methods can be implemented to push the transition location further downstream, increasing the regions of laminar flow \cite{green_civil_2003}. One promising passive approach is natural laminar flow (NLF), which relies on wing shaping to extend the laminar region. However, NLF design is generally restricted to modest sweep angles and Reynolds numbers \cite{lynde_computational_2017,lynde_preliminary_2019}.
-
-At higher sweep angles and Reynolds numbers, active laminar flow control becomes necessary. HLFC extends natural laminar flow by adding boundary-layer suction to the aerodynamic shaping used in NLF. This combination enables significantly greater control over the boundary-layer profile, allowing transition to be pushed farther downstream. The technique is particularly suited to wings and empennages due to their large wetted areas and typically high sweep, while nacelles and other components may rely on other drag-reduction strategies \cite{johansen_prediction_1999}.
+To delay this transition from laminar to turbulent flow, flow control methods can be implemented to push the transition location further downstream, increasing the regions of laminar flow \cite{green_civil_2003}. One promising passive approach is natural laminar flow (NLF), which relies on wing shaping to extend the laminar region. However, NLF design is generally restricted to modest sweep angles and Reynolds numbers \cite{lynde_computational_2017,lynde_preliminary_2019}. At higher sweep angles and Reynolds numbers, active laminar flow control becomes necessary. HLFC extends natural laminar flow by adding boundary-layer suction to the aerodynamic shaping used in NLF. This combination enables significantly greater control over the boundary-layer profile, allowing transition to be pushed farther downstream. The technique is particularly suited to wings and empennages due to their large wetted areas and typically high sweep, while nacelles and other components may rely on other drag-reduction strategies \cite{johansen_prediction_1999}.
 
 
 The concept of applying suction across the full upper and lower surfaces of a wing was experimentally explored by NACA in the Langley low-turbulence pressure tunnel \cite{Braslow1951}. Using a NACA 64A010 airfoil with a sintered bronze perforated surface, the study demonstrated that boundary-layer suction could maintain laminar flow at low speeds ($M \approx 0.3$) and moderate Reynolds numbers ($Re = 6 \times 10^6$). NASA later extended these investigations in the Langley Laminar-Flow-Control Experiment \cite{bobbitt_results_1992, harvey_design_1986, dagenhart_design_1978, berry_boundary-layer_1987}, applying suction over both upper and lower wing surfaces of a supercritical airfoil in unswept and swept configurations. The study validated transition prediction methods and compared slotted and perforated suction surfaces, accounting for temperature gradients and surface porosity in the efficiency calculations. Results showed that suction could successfully delay transition up to 60\% of the chord, confirming the effectiveness of both suction surface types in moving the transition location downstream. Building on these experimental studies, Fisher and Fischer demonstrated active laminar flow control on a JetStar aircraft during the Leading-Edge Flight Test (LEFT) \cite{fisher_development_1987}. The aircraft employed both slotted and perforated suction surfaces, with additional measures such as Krueger flaps with integrated deicer nozzles to protect against insect, ice, and particulate contamination. Both suction configurations were successfully implemented, with slotted surfaces proving more effective at delaying transition, while perforated surfaces were more prone to clogging.
 
 Numerical studies of HLFC have also been undertaken. Sudhi et al.\ applied active laminar flow control to two-dimensional airfoils using XFOIL coupled with the $e^N$ transition prediction method \cite{Sudhi2023-yf}. Drag-minimization optimizations were performed with and without suction, treating the onset of suction as a design variable. Optimized suction distributions applied upstream of the natural transition location delayed transition to 80\% of the chord and reduced drag by 30\% relative to the no-suction case. Extending this methodology, Sudhi et al.\ explored HLFC on transonic, infinite swept wings at high Reynolds numbers \cite{Sudhi2023-yf}. By jointly optimizing wing shape and suction distribution using a multi-objective genetic algorithm, HLFC configurations achieved up to 25\% drag reduction over NLF designs at $Re = 30 \times 10^6$ and sweep angle $22.5^\circ$, outperforming fully turbulent designs by 27\%. Prasannakumar et al.\ \cite{Prasannakumar_Sudhi_Seitz_Badrya_2024} applied suction to a finite wing swept at $16^\circ$ at the operating conditions of a hybrid-electric propulsion aircraft. The aircraft has a cruise Mach number of 0.71, $C_L = 0.5$ and a range of 4600 km. The objective of this work was to maximize the laminar region while minimizing the suction and pressure drag through the control of suction panels at different spanwise stations at the leading edge. The results of this study indicate that the transition point is able to be moved to 60\% chord with considerations for a battery powering the suction system to maximize the net drag reduction.
 
-Pascual and Zingg \cite{Pascual2025-bx} implemented a suction-based aerodynamic optimization framework for HLFC, coupling a suction boundary condition with the SA-sLM2015cc transition model \cite{piotrowski_smooth_2021, piotrowski_compressibility_2023} in a Reynolds-averaged Navier–Stokes (RANS) solver. Strategically placing multiple suction locations yielded significant drag reductions. On an NLF-optimized RAE2822 airfoil with operating conditions: $M=0.6$, $Re = 10 \times 10^6$, $C_L = 0.42$, suction applied upstream of the transition location reduced drag by 6\% at a suction speed of $0.1\% \: U_\infty$. For infinite swept wings with operating conditions: $M = 0.78$, $Re = 15 \times 10^6$, $C_L = 0.492$, $\Lambda = 25^\circ$, aerodynamic shaping alone achieved 5\% drag reduction, while applying suction upstream at a suction speed of $0.1\% \: U_\infty$, resulted in 8\% drag reduction, validating the flow physics of suction and the effect of suction on laminar-turbulent transition.
+Pascual and Zingg \cite{Pascual2025-bx} implemented a suction-based aerodynamic optimization framework for HLFC, coupling a suction boundary condition with the SA-sLM2015cc transition model \cite{piotrowski_smooth_2021, piotrowski_compressibility_2023} in a Reynolds-averaged Navier–Stokes (RANS) solver. Strategically placing multiple suction locations yielded significant drag reductions. On an NLF-optimized RAE2822 airfoil with operating conditions: $M=0.6$, $Re = 10 \times 10^6$, $C_L = 0.42$, suction applied upstream of the transition location reduced drag by 6\% at a suction speed of $0.1\% \: U_\infty$. For infinite swept wings with operating conditions: $M = 0.78$, $Re = 15 \times 10^6$, $C_L = 0.492$, $\Lambda = 25^\circ$, aerodynamic shaping alone achieved 5\% drag reduction, while applying suction upstream at a suction speed of $0.1\% \: U_\infty$, resulted in 8\% drag reduction, validating the ability of the methodology to simulate the flow physics of suction and the effect of suction on laminar-turbulent transition.
 
 The objective of the current work is to develop an effective methodology to perform aerodynamic shape optimization in the presence of laminar-turbulent transition and suction, and to use the optimization methodology developed to study optimal approaches to drag reduction via HLFC and to quantify the performance benefits achievable. To validate the suction boundary condition implementation, several benchmark cases are examined, including flat-plate flow, airfoil experiments, and high-speed swept-wing configurations.
 
@@ -88,16 +88,16 @@ Section \ref{sec:methodology} outlines the flow solver, transition-prediction mo
 
 \section{Methodology} \label{sec:methodology}
 
-Aerodynamic shape optimization is carried out using Jetstream, the high-fidelity optimization framework developed at the University of Toronto Institute for Aerospace Studies. Jetstream comprises five core components: a Newton-Krylov-Schur flow solver for the Reynolds-Averaged Navier–Stokes (RANS) equations \cite{osusky_parallel_2008, osusky_parallel_2010}; a transition-prediction model based on empirical local correlations, coupled with the one-equation Spalart–Allmaras (SA) turbulence model \cite{piotrowski_investigation_2019, piotrowski_smooth_2021}; a unified geometry parameterization and mesh deformation scheme based on linear elasticity \cite{hicken_aerodynamic_2010}; the SNOPT gradient-based optimizer used alongside a discrete-adjoint gradient method \cite{gill_snopt_2002}; and a combination of free-form deformation (FFD) and axial deformation for geometry control \cite{gagnon_two-level_2015}. The framework has been extended to support active boundary-layer suction through the implementation of a suction boundary condition.
+Aerodynamic shape optimization is carried out using Jetstream, the high-fidelity optimization framework developed at the University of Toronto Institute for Aerospace Studies. Jetstream comprises five core components: a Newton-Krylov-Schur flow solver for the Reynolds-Averaged Navier–Stokes (RANS) equations \cite{hicken_parallel_2008, osusky_parallel_2008}; a transition-prediction model based on empirical local correlations, coupled with the one-equation Spalart–Allmaras (SA) turbulence model \cite{piotrowski_smooth_2021}; a unified geometry parameterization and mesh deformation scheme based on linear elasticity \cite{hicken_aerodynamic_2010}; the SNOPT gradient-based optimizer used alongside a discrete-adjoint gradient method \cite{gill_snopt_2002}; and a combination of free-form deformation (FFD) and axial deformation for geometry control \cite{gagnon_two-level_2015}. The framework has been extended to support active boundary-layer suction through the implementation of a suction boundary condition.
 
-The flow solver, Diablo \cite{osusky_parallel_2008, osusky_parallel_2010}, is a multiblock, parallel, implicit RANS solver that employs second-order summation-by-parts (SBP) operators for spatial discretization and uses simultaneous approximation terms (SATs) \cite{delrey_fernandez_simultaneous_2018} to enforce boundary and block-interface conditions.
+The flow solver, Diablo \cite{osusky_parallel_2008}, is a multiblock, parallel, implicit RANS solver that employs second-order summation-by-parts (SBP) operators for spatial discretization and uses simultaneous approximation terms (SATs) to enforce boundary and block-interface conditions.
 
 Geometry parametrization and mesh deformation follow the approach of Hicken and Zingg \cite{hicken_aerodynamic_2010}, in which each computational block is associated with a B-spline volume whose surface control points provide a low-dimensional representation of the geometry. Mesh motion is propagated to the interior using a linear-elasticity formulation. Geometry modification uses a hybrid strategy combining free-form and axial deformation methods \cite{gagnon_two-level_2015}. Free-form deformation (FFD) volumes govern section shape, chord, and twist through B-spline control points, while axial B-spline curves control sweep, span, and dihedral. For the infinite swept-wing cases considered here, axial-curve deformation is unnecessary but is included for completeness and applied in the finite-wing optimizations.
 
 Gradient-based optimization is performed using SNOPT \cite{gill_snopt_2002}, which implements a sequential quadratic programming (SQP) framework capable of handling linear and nonlinear constraints. Gradients are supplied via the discrete-adjoint method \cite{Jameson1998-sf, Osusky2015-qh}.
 
 \subsection{Transition Prediction Model} \label{sec:transition-prediction}
-The flow solver incorporates boundary-layer transition prediction using the SA-sLM2015cc model developed by Piotrowski and Zingg \cite{piotrowski_smooth_2021, piotrowski_compressibility_2023}. This model builds on the $\gamma\text{-}Re_{\theta t}$ framework; an empirical, correlation-based approach introduced by Langtry and Menter \cite{langtry_correlation-based_2009} to model Tollmien–Schlichting (TS) and crossflow (CF) instabilities that includes the $\gamma\text{-}Re_{\theta t}$ model includes two transport equations: one for $\gamma$, the intermittency function, and another for $Re_{\theta t}$, the momentum-thickness Reynolds number. The SA-sLM2015 model \cite{piotrowski_smooth_2021} couples this transition framework with the one-equation Spalart–Allmaras turbulence model \cite{spalart_one-equation_1994}, and replaces non-smooth functions in the original formulation with smooth alternatives to ensure a continuous and differentiable design space. Piotrowski and Zingg later enhanced the model by incorporating compressibility corrections for both TS and CF instabilities, leading to the current version, SA-sLM2015cc \cite{piotrowski_compressibility_2023}.
+The flow solver incorporates boundary-layer transition prediction using the SA-sLM2015cc model developed by Piotrowski and Zingg \cite{piotrowski_smooth_2021, piotrowski_compressibility_2023}. This model builds on the $\gamma\text{-}Re_{\theta t}$ framework; an empirical, correlation-based approach introduced by Langtry and Menter \cite{langtry_correlation-based_2009} to model Tollmien–Schlichting (TS) and crossflow (CF) instabilities that includes two transport equations: one for $\gamma$, the intermittency function, and another for $Re_{\theta t}$, the momentum-thickness Reynolds number. The SA-sLM2015 model \cite{piotrowski_smooth_2021} couples this transition framework with the one-equation Spalart–Allmaras turbulence model \cite{spalart_one-equation_1994}, and replaces non-smooth functions in the original formulation with smooth alternatives to ensure a continuous and differentiable design space. Piotrowski and Zingg later enhanced the model by incorporating compressibility corrections for both TS and CF instabilities, leading to the current version, SA-sLM2015cc \cite{piotrowski_compressibility_2023}.
 
 \subsection{Suction Boundary Condition} \label{sec:suction-bc}
 
@@ -128,10 +128,10 @@ C_{D,\text{pump}} = \left( \frac{U_e}{U_\infty} \right)^2 \left( \frac{v_{\text{
 
 \section{Model Validation}
 \label{sec:validation}
-This section presents the validation of the developed suction boundary condition. First, two validation cases are discussed: boundary-layer suction applied to a flat plate and to a NACA 64A010 airfoil, demonstrating agreement with both computational and experimental reference data.
+This section presents the validation of the developed suction boundary condition. Two validation cases are discussed: boundary-layer suction applied to a flat plate and to a NACA 64A010 airfoil, demonstrating agreement with both computational and experimental reference data.
 
 \subsection{Boundary-layer Suction Applied to a Flat Plate}
-Fehrs implemented a no-slip wall boundary condition using an effusion mass flux boundary condition in the DLR TAU-Code \cite{Fehrs2020-qg} and validated it analytically. 	The operating conditions consist of $U_\infty = 40$ m/s, $Re = 6.62 \times 10^6$ with the suction coefficient and suction velocity listed in Table \ref{tab:Fehrs_operating_conditions}. The results in Figure \ref{fig:fehrs_flat_plate} show the velocity profiles with respect to the similarity variable $\eta$, which is defined as:
+Fehrs implemented a no-slip wall boundary condition using an effusion mass flux boundary condition in the DLR TAU-Code \cite{Fehrs2020-qg} and validated it analytically. 	The operating conditions consist of $U_\infty = 40$ m/s, $Re = 6.62 \times 10^6$ with the suction coefficient and suction velocity listed in Table \ref{tab:Fehrs_operating_conditions}. The results in Fig \ref{fig:fehrs_flat_plate} show the velocity profiles with respect to the similarity variable $\eta$, which is defined as:
 \[
 \eta = y \sqrt{\frac{U_\infty}{2 \nu x}}.
 \]
@@ -154,12 +154,10 @@ Case & $C_Q$ & $v_w$ (m/s)\\
 
 \begin{figure}[!t]
 \centering
-\includegraphics[height = 8cm, width = \textwidth, keepaspectratio]{fehrs_flat_plate.pdf}
+\includegraphics[height = 7.5cm, width = \textwidth, keepaspectratio]{fehrs_flat_plate.pdf}
 \caption{Boundary-layer velocity profiles with two different suction coefficients produced using the SA-sLM2015cc transition model validated against DLR TAU-Code computational results (shown with symbols).}
 \label{fig:fehrs_flat_plate}
 \end{figure}
-
-\pagebreak
 
 \subsection{Flow over an Airfoil with Prescribed Suction} \label{sub:workshop-infinite-swept}
 Braslow et al.\ conducted experiments using a NACA 64A010 airfoil with a sintered bronze surface through which suction was applied \cite{Braslow1951}. Suction was applied across the entirety of the upper and lower surfaces, aside from a small portion at the leading edge at approximately $5\% \: x/c$. The wind tunnel was operated at a speed of $M \approx 0.3$ and $Re = 6 \times 10^6$ and the airfoil was fixed at $\alpha = 0^\circ$. The computational mesh used for this validation case is a 270 $\times$ 182 O-grid.
@@ -168,7 +166,7 @@ The experiment measured the boundary-layer profiles at 83\% of the chord and fou
 
 \begin{figure}[!t]
 \centering
-\includegraphics[height=8cm, width = \textwidth, keepaspectratio]{braslow.pdf}
+\includegraphics[height=7.5cm, width = \textwidth, keepaspectratio]{braslow.pdf}
 \caption{Boundary-layer velocity profiles at $\mathbf{83\%}$ chord comparing results obtained with the SA-sLM2015cc transition model to the NACA 64A010 wind tunnel experiment.}
 \label{fig:Braslow_results}
 \end{figure}
@@ -183,7 +181,7 @@ The experiment measured the boundary-layer profiles at 83\% of the chord and fou
 \begin{figure}[!t]
 \centering
 \includegraphics[height=7cm, width = \textwidth, keepaspectratio]{bl_profiles.pdf}
-\caption{Boundary-layer profiles for a NACA 64A010 airfoil. The profiles are taken on the upper surface taken at 75\% chord comparing experimental results (shown with symbols) with the present work for various suction coefficients.}
+\caption{Boundary-layer profiles for a NACA 64A010 airfoil. The profiles are taken on the upper surface at 75\% chord comparing experimental results (shown with symbols) with the present work for various suction coefficients.}
 \label{fig:bl_profiles}
 \end{figure}
 
@@ -194,7 +192,7 @@ The methodology is applied to aerodynamic optimization studies involving infinit
 
 \subsection{Suction Applied to an Optimized Geometry at Airbus A340 Operating Conditions}
 \label{sub:a340-infinite-swept}
-The following cases were completed using the RAE2822 airfoil as the initial geometry. At estimated Airbus A340 conditions consisting of $M = 0.82$, $Re = 45.34 \times 10^6$, $C_L = 0.512$, $\Lambda = 30^\circ$. The computational meshes used for the infinite swept wing cases are 360 $\times$ 120 O-grids. This geometry has 11 axial free-form deformation curves for each surface. Suction is applied at a fixed location on a geometry obtained from a lift-constrained drag minimization without suction, subject to an area constraint and minimum thickness constraints. The NLF optimization problem is summarized as:
+The following cases were completed using the RAE2822 airfoil as the initial geometry at estimated Airbus A340 conditions consisting of $M = 0.82$, $Re = 45.34 \times 10^6$, $C_L = 0.512$, $\Lambda = 30^\circ$. The computational meshes used for the infinite swept wing cases are 360 $\times$ 120 O-grids. This geometry has 11 free-form deformation control points for each surface. Suction is applied at a fixed location on a geometry obtained from a lift-constrained drag minimization without suction, subject to an area constraint and minimum thickness constraints. The NLF optimization problem is summarized as:
 \begin{align*}
 	\min_{\textbf{X}} \quad \quad &C_D(\textbf{X}) \quad \quad \\
 	\text{s.t.} \quad \quad
@@ -204,11 +202,11 @@ The following cases were completed using the RAE2822 airfoil as the initial geom
 \end{align*}
 \noindent where \textbf{X} represents the design variable vector, including the angle of attack and the FFD control points, $C_L$ and $C_D$ the lift and drag coefficients, respectively, $A$ the cross-sectional area, and $t/c$ the thickness-to-chord ratio for each FFD control point pair. The `init' subscript indicates the value of the quantity from the baseline geometry. Previous results by Pascual and Zingg \cite{Pascual2025-bx} investigated lower sweep angle and Reynolds number combinations. The present work shifts focus to conditions where aerodynamic shaping offers limited benefits, increasing reliance on active suction to delay transition and reduce drag. The presented cases account for the suction drag penalty defined in Equation \ref{eq:suction-drag}, with suction being applied over the entire leading edge up until the upper and lower surfaces' respective transition locations on the optimized geometry.
 
-Results for the initial geometry analysed with transition prediction, a fully-turbulent optimized geometry for comparison, the NLF optimized geometry, and three different suction coefficients applied to the NLF optimied geometry are shown in Table \ref{tab:a340-results}. Figure \ref{fig:a340-cpcf} shows the pressure coefficient plot for the baseline, NLF-optimized, and suction configurations. As seen in the table, the NLF optimization provides an 11.8\% reduction in drag, but the optimizer struggles to significantly delay transition on both surfaces, especially on the lower surface. 
+Results for the initial geometry analysed with transition prediction, a fully-turbulent optimized geometry for comparison, the NLF optimized geometry, and three different suction coefficients applied to the NLF optimied geometry are shown in Table \ref{tab:a340-results}. Figure \ref{fig:a340-cpcf} shows the pressure coefficient plot for the baseline, NLF-optimized, and suction configurations. As seen in the table, the NLF optimization provides an 11.8\% reduction in drag relative to the initial geometry, but the optimizer struggles to significantly delay transition, especially on the lower surface. 
 
 When suction is introduced, the aerodynamic performance improves further. Even the lowest suction level tested ($C_Q = 0.0001$), provides a drag reduction of 10.9\% compared to the turbulent optimized case. Increasing the suction coefficient consistently enhances the delay of transition, with $C_Q = 0.0010$ producing a 20.1\% drag reduction.
 
-Figure \ref{fig:a340-transition-plot} illustrates the influence of suction on the transition location for both surfaces. As expected, higher suction velocities push the transition point further downstream. However, the spacing between transition locations decreases with increasing $C_Q$, indicating diminishing returns in transition delay at higher suction levels. Overall, while all suction levels produce substantial improvements relative to the NLF-optimized case, the marginal benefit decreases as the suction intensity is increased, suggesting that there is an optimal value for the suction coefficient.
+Figure \ref{fig:a340-transition-plot} illustrates the influence of suction on the transition location for both surfaces. As expected, higher suction velocities push the transition point further downstream. However, the incremental benefit decreases with increasing $C_Q$, indicating diminishing returns in transition delay at higher suction levels. 
 
 \begin{table}[!t]
 \centering
@@ -245,9 +243,13 @@ $C_Q = 0.0010$ & 56.6 (-14.9\%) & 94.4 & 21.0\% & 8.3\% \\
 \label{fig:a340-transition-plot}
 \end{figure}
 
+\FloatBarrier
+
+
 \subsubsection{Application of Suction at the Updated Transition Location}
 \label{subsub:a340-updated}
-Following the analysis in the previous section with suction applied to the leading edge, suction was then applied beginning approximately 3\% upstream of each newly identified transition point. The resulting suction extents and corresponding drag levels are summarized in Table \ref{tab:a340-results-2} and the pressure distributions shown in Fig. \ref{fig:a340-cpcf-2}. Fig. \ref{fig:a340-transition-plot-2} illustrates that transition on the upper surface is displaced downstream for all suction levels, with larger shifts occurring at higher $C_Q$. This delay in transition produces a corresponding reduction in drag, decreasing from 58.46 counts at $C_Q = 0.0001$ to 53.79 counts at $C_Q = 0.0010$.
+Following the analysis in the previous section with suction applied to the leading edge, suction was then applied beginning approximately 3\% upstream of each newly identified transition point. The resulting suction extents and corresponding drag levels are summarized in Table \ref{tab:a340-results-2} and the pressure distributions shown in Figure \ref{fig:a340-cpcf-2}. Figure \ref{fig:a340-transition-plot-2} illustrates that transition on the upper surface is displaced downstream for all suction levels, with larger shifts occurring at higher $C_Q$. This delay in transition produces a corresponding reduction in drag, decreasing from 58.46 counts at $C_Q = 0.0001$ to 53.79 counts at $C_Q = 0.0010$, a reduction of 14.9\%.
+
 
 \begin{table}[!t]
 \centering
@@ -267,15 +269,15 @@ $C_Q = 0.0010$ & 18.0\% -- 21.0\% & 5.3\% -- 8.3\% & 53.79  & 21.0\% & 15.3\% \\
 
 \begin{figure}[!t]
 \centering
-\includegraphics[height = 7cm, width = \textwidth, keepaspectratio]{a340-cpcf2.pdf}
+\includegraphics[height = 7.5cm, width = \textwidth, keepaspectratio]{a340-cpcf2.pdf}
 \caption{Pressure coefficient plot at Airbus A340 operating conditions with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2.5\% on the lower surface.}
 \label{fig:a340-cpcf-2}
 \end{figure}
 
 \begin{figure}[!t]
 \centering
-\includegraphics[height = 7cm, width = \textwidth, keepaspectratio]{a340-transition-plot2.pdf}
-\caption{Transition location on the upper and lower surface at Airbus A340 operating conditions for various suction velocities when applied to the NLF optimized geometry.}
+\includegraphics[height = 7.5cm, width = \textwidth, keepaspectratio]{a340-transition-plot2.pdf}
+\caption{Transition location on the upper and lower surface at Airbus A340 operating conditions for various suction velocities when applied to the NLF optimized geometry with an additional suction location is added upstream with an extent of 3\%.}
 \label{fig:a340-transition-plot-2}
 \end{figure}
 
@@ -304,14 +306,14 @@ $C_Q = 0.0010$ & 18.0\% -- 21.0\% & 5.3\% -- 8.3\% & 53.79  & 21.0\% & 15.3\% \\
 %
 %\begin{figure}[!t]
 %\centering
-%\includegraphics[height = 7cm, width = \textwidth, keepaspectratio]{a350-cpcf1.pdf}
+%\includegraphics[height = 7.5cm, width = \textwidth, keepaspectratio]{a350-cpcf1.pdf}
 %\caption{Pressure coefficient plot at Airbus A350 operating conditions with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2\% on the lower surface.}
 %\label{fig:a350-cpcf}
 %\end{figure}
 %
 %\begin{figure}[!t]
 %\centering
-%\includegraphics[height = 7cm, width = \textwidth, keepaspectratio]{a350-transition-plot1.pdf}
+%\includegraphics[height = 7.5cm, width = \textwidth, keepaspectratio]{a350-transition-plot1.pdf}
 %\caption{Transition location on the upper and lower surface at Airbus A350 operating conditions for various suction velocities when applied to the NLF optimized geometry.}
 %\label{fig:a350-transition-plot}
 %\end{figure}
@@ -319,7 +321,7 @@ $C_Q = 0.0010$ & 18.0\% -- 21.0\% & 5.3\% -- 8.3\% & 53.79  & 21.0\% & 15.3\% \\
 %\subsubsection{Application of Suction at the Updated Transition Location}
 %Similar to Section \ref{subsub:a340-updated}, suction was next applied to the optimized A350 geometry beginning approximately 3\% upstream of each updated transition location identified from the baseline simulations with leading-edge suction. For each suction coefficient, the flow was recomputed and the transition location re-evaluated, after which the suction region was shifted accordingly.
 %
-%The resulting suction extents and drag levels are presented in Table \ref{tab:a350-results-2} with the pressure distributions shown in Fig. \ref{fig:a350-cpcf-2}. As the suction coefficient increases from $C_Q = 0.0005$ to $C_Q = 0.0010$, the suction region moves farther aft on both the upper and lower surfaces, consistent with the increased ability of stronger suction to stabilize the boundary layer and delay transition. 
+%The resulting suction extents and drag levels are presented in Table \ref{tab:a350-results-2} with the pressure distributions shown in Figure \ref{fig:a350-cpcf-2}. As the suction coefficient increases from $C_Q = 0.0005$ to $C_Q = 0.0010$, the suction region moves farther aft on both the upper and lower surfaces, consistent with the increased ability of stronger suction to stabilize the boundary layer and delay transition. 
 %
 %Overall, the transition location on the upper surface is shifted downstream for both suction levels, with the stronger suction case producing the larger displacement. This results in a modest reduction in drag, from 49.45 counts at $C_Q = 0.0005$ to 49.11 counts at $C_Q = 0.0010$, demonstrating that suction applied near the updated transition location remains effective even on the optimized A350 geometry.
 %
@@ -340,14 +342,14 @@ $C_Q = 0.0010$ & 18.0\% -- 21.0\% & 5.3\% -- 8.3\% & 53.79  & 21.0\% & 15.3\% \\
 %
 %\begin{figure}[!t]
 %\centering
-%\includegraphics[height = 7cm, width = \textwidth, keepaspectratio]{a350-cpcf2.pdf}
+%\includegraphics[height = 7.5cm, width = \textwidth, keepaspectratio]{a350-cpcf2.pdf}
 %\caption{Pressure coefficient plot at Airbus A350 operating conditions with suction applied along the entire leading edge, extending to 9\% of the chord on the upper surface and 2\% on the lower surface.}
 %\label{fig:a350-cpcf-2}
 %\end{figure}
 %
 %\begin{figure}[!t]
 %\centering
-%\includegraphics[height = 7cm, width = \textwidth, keepaspectratio]{a350-transition-plot2.pdf}
+%\includegraphics[height = 7.5cm, width = \textwidth, keepaspectratio]{a350-transition-plot2.pdf}
 %\caption{Transition location on the upper and lower surface at Airbus A350 operating conditions for various suction velocities when applied to the optimized geometry.}
 %\label{fig:a350-transition-plot-2}
 %\end{figure}
@@ -492,11 +494,9 @@ $C_Q = 0.0010$ & 18.0\% -- 21.0\% & 5.3\% -- 8.3\% & 53.79  & 21.0\% & 15.3\% \\
 
 \section{Conclusions}
 \label{sec:conclusion}
-In this paper, we present a framework for aerodynamic shape optimization incorporating Hybrid Laminar Flow Control (HLFC) through active boundary-layer suction. The methodology was first validated against benchmark cases including flat-plate flow and NACA 64A010 airfoil experiments, demonstrating accurate prediction of laminar-to-turbulent transition and suction effects. Lift-constrained drag minimization was then performed for airfoils and infinite swept wings with fixed suction applications. For infinite swept wings at estimated Airbus A340 operating conditions, aerodynamic shaping combined with suction delayed crossflow-dominated transition, yielding 15\% drag reduction compared to what is achieved by NLF optimization. 
+In this paper, we present a framework for aerodynamic shape optimization incorporating HLFC through suction. The methodology was first validated against benchmark cases including flat-plate flow and NACA 64A010 airfoil experiments, demonstrating accurate prediction of laminar-to-turbulent transition and suction effects. Lift-constrained drag minimization was then performed for an infinite swept wing after which suction was applied at fixed locations upstream of the transition location at estimated Airbus A340 operating conditions, yielding 15\% drag reduction compared with a turbulent optimized geometry. The updated transition location was determined and suction was reapplied upstream of this location, yielding 19\% drag reduction compared to a turbulent optimized geometry. 
 
-Future work will focus on extending this framework to three-dimensional, finite wings to capture realistic planform effects and full spanwise flow behavior. Optimization of suction power and placement will also be incorporated to identify the most effective combination of suction intensity and location for drag reduction while minimizing energy expenditure. These developments will enable more realistic assessments of HLFC performance for practical aircraft configurations and support the design of efficient suction-based laminar flow control systems.
-
-
+Future work will focus on extending this framework to finite wings to capture realistic planform effects and full spanwise flow behavior. Optimization of suction power and placement will also be incorporated to identify the most effective combination of suction intensity and location for drag reduction while minimizing energy expenditure. These developments will enable more realistic assessments of HLFC performance for practical aircraft configurations and support the design of efficient suction-based laminar flow control systems.
 
 \section*{Acknowledgements}
 This work is partially funded by Bombardier, Transport Canada, the Natural Sciences and Engineering Research Council (NSERC), and the University of Toronto. All results in this paper were computed on the Niagara and Trillium supercomputers at the SciNet HPC Consortium, a part of the Digital Research Alliance of Canada.
