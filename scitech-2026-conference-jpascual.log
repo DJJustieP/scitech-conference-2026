@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  2 DEC 2025 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  3 DEC 2025 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1656,12 +1656,12 @@ Package pdftex.def Info: braslow.pdf  used on input line 169.
 File: schwartzberg_extents.pdf Graphic file (type pdf)
 <use schwartzberg_extents.pdf>
 Package pdftex.def Info: schwartzberg_extents.pdf  used on input line 176.
-(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
+(pdftex.def)             Requested size: 231.96884pt x 206.28102pt.
 <bl_profiles.pdf, id=165, 598.235pt x 531.9875pt>
 File: bl_profiles.pdf Graphic file (type pdf)
 <use bl_profiles.pdf>
 Package pdftex.def Info: bl_profiles.pdf  used on input line 183.
-(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
+(pdftex.def)             Requested size: 231.96884pt x 206.28102pt.
 
 
 [5 <./fehrs_flat_plate.pdf> <./braslow.pdf>]
@@ -1670,31 +1670,35 @@ Package pdftex.def Info: bl_profiles.pdf  used on input line 183.
 <a340-cpcf1.pdf, id=260, 598.235pt x 531.9875pt>
 File: a340-cpcf1.pdf Graphic file (type pdf)
 <use a340-cpcf1.pdf>
-Package pdftex.def Info: a340-cpcf1.pdf  used on input line 234.
-(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
+Package pdftex.def Info: a340-cpcf1.pdf  used on input line 230.
+(pdftex.def)             Requested size: 231.96884pt x 206.28102pt.
 <a340-transition-plot1.pdf, id=261, 598.235pt x 531.9875pt>
 File: a340-transition-plot1.pdf Graphic file (type pdf)
 <use a340-transition-plot1.pdf>
-Package pdftex.def Info: a340-transition-plot1.pdf  used on input line 241.
-(pdftex.def)             Requested size: 223.9633pt x 199.162pt.
+Package pdftex.def Info: a340-transition-plot1.pdf  used on input line 237.
+(pdftex.def)             Requested size: 231.96884pt x 206.28102pt.
+<a340-cpcf2.pdf, id=265, 598.235pt x 531.9875pt>
+File: a340-cpcf2.pdf Graphic file (type pdf)
+<use a340-cpcf2.pdf>
+Package pdftex.def Info: a340-cpcf2.pdf  used on input line 266.
+(pdftex.def)             Requested size: 239.96526pt x 213.39192pt.
+<a340-transition-plot2.pdf, id=266, 598.235pt x 531.9875pt>
+File: a340-transition-plot2.pdf Graphic file (type pdf)
+<use a340-transition-plot2.pdf>
+Package pdftex.def Info: a340-transition-plot2.pdf  used on input line 273.
+(pdftex.def)             Requested size: 239.96526pt x 213.39192pt.
 
 
 [7]
-<a340-cpcf2.pdf, id=274, 598.235pt x 531.9875pt>
-File: a340-cpcf2.pdf Graphic file (type pdf)
-<use a340-cpcf2.pdf>
-Package pdftex.def Info: a340-cpcf2.pdf  used on input line 272.
-(pdftex.def)             Requested size: 239.96526pt x 213.39192pt.
-<a340-transition-plot2.pdf, id=275, 598.235pt x 531.9875pt>
-File: a340-transition-plot2.pdf Graphic file (type pdf)
-<use a340-transition-plot2.pdf>
-Package pdftex.def Info: a340-transition-plot2.pdf  used on input line 279.
-(pdftex.def)             Requested size: 239.96526pt x 213.39192pt.
+
+LaTeX Warning: Text page 8 contains only floats.
 
 
-[8 <./a340-cpcf1.pdf> <./a340-transition-plot1.pdf>]
 
-[9 <./a340-cpcf2.pdf>] (scitech-2026-conference-jpascual.bbl
+[8 <./a340-cpcf1.pdf>]
+
+[9 <./a340-transition-plot1.pdf> <./a340-cpcf2.pdf>]
+(scitech-2026-conference-jpascual.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
@@ -1749,13 +1753,13 @@ t changed.
 (rerunfilecheck)             Checksum: 2F712051D56E6F25C8E7D3BD71504107;2855.
  ) 
 Here is how much of TeX's memory you used:
- 44719 strings out of 473899
- 1021934 string characters out of 5726499
- 1525771 words of memory out of 5000000
+ 44723 strings out of 473899
+ 1022004 string characters out of 5726499
+ 1529771 words of memory out of 5000000
  66642 multiletter control sequences out of 15000+600000
- 649652 words of font info for 229 fonts, out of 8000000 for 9000
+ 649833 words of font info for 231 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,11n,131p,1774b,1119s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,11n,131p,1774b,1115s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXM
 I.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/Ne
 wTXMI7.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex
@@ -1766,7 +1770,7 @@ ublic/newtx/txsys.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/newtx/ztmb.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/newtx/ztmr.pfb><C:/Users/pascu/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/newtx/ztmri.pfb>
-Output written on scitech-2026-conference-jpascual.pdf (11 pages, 455446 bytes)
+Output written on scitech-2026-conference-jpascual.pdf (11 pages, 455319 bytes)
 .
 PDF statistics:
  405 PDF objects out of 1000 (max. 8388607)
